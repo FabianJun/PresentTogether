@@ -2,13 +2,14 @@
 
 For designing the activity, implementing it and checking its rules, our starting recommendation is **Sol with High reasoning effort** in a capable agent. This gives the model more room to plan and check the work. It is our task recommendation, not a vendor default or a requirement to buy the largest model.
 
-**Check university access first.** We recommend the Microsoft Copilot desktop app with your university account where permitted. The [setup guide](../skills/interactive-classroom-presentation/references/tool-access.md#start-with-your-university-access) explains account protection and access checks. Your existing licence may save you a separate subscription. Eligible Copilot Chat access is included at no extra cost, but Cowork and other advanced work can require additional licensing and usage credits. The agent must explain those costs before you enable paid usage. [Microsoft licensing](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-licensing), [Cowork usage billing](https://learn.microsoft.com/en-us/microsoft-365/copilot/usage-based-billing-overview-copilot-credits/)
+**Check capabilities before choosing a model or buying a plan.** The university Copilot setup reported for this project cannot connect to GitHub or accept uploads, so it is not our recommended build route. A model selection cannot fix missing file or execution access. Start with a capable, permitted coding agent and check whether your existing subscription covers it. [Access check](../skills/interactive-classroom-presentation/references/tool-access.md#check-access-before-you-start)
 
 | Tool or provider | Example | Suggested starting setting |
 |---|---|---|
-| Microsoft Copilot Cowork | Sol, using the version available in your university account | Choose **Sol** in the model menu and **High** in the reasoning menu beside it. Availability depends on institutional settings. [Model and effort controls](https://learn.microsoft.com/en-us/copilot/cowork/cowork-models) |
 | OpenAI | GPT-6.1 Sol in a coding agent that offers it | High reasoning effort. [Model details](https://developers.openai.com/api/docs/models/gpt-6.1-sol) |
 | Anthropic | Claude Opus in an agent that offers it | High effort for the initial build and complex activity logic. Sonnet is another option when usage or speed matters. [Model comparison](https://platform.claude.com/docs/en/models/overview), [effort settings](https://platform.claude.com/docs/en/build-with-claude/effort) |
+
+Microsoft Copilot Cowork is a conditional alternative only when the actual account provides the necessary tools. Its documented Sol and reasoning controls do not establish access in a university account. Included Copilot Chat access also does not guarantee included Cowork usage. [Model controls](https://learn.microsoft.com/en-us/copilot/cowork/cowork-models), [usage billing](https://learn.microsoft.com/en-us/microsoft-365/copilot/usage-based-billing-overview-copilot-credits/)
 
 Reasoning effort is how much work the model can put into planning and checking. Higher effort may take longer and use more of your allowance. You can lower it for a small wording change. Leave maximum settings off unless the normal setup is struggling with a specific problem.
 

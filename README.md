@@ -8,18 +8,20 @@ PresentTogether began with a wish to help teachers and students use AI to streng
 
 ## Start here
 
-Copy this into your agent. You can start with Microsoft Copilot, Codex, Claude Cowork, GitHub Copilot or another tool with suitable capabilities. The agent checks what it can do and helps with any missing access. [Which tools can do this?](skills/interactive-classroom-presentation/references/tool-access.md)
+Copy this into a capable coding agent, such as Codex, Claude Code or GitHub Copilot in VS Code. Claude Cowork and other tools can also be suitable if they have the required file, execution and testing access. The agent checks its actual tools and guides setup. [Which tools can do this?](skills/interactive-classroom-presentation/references/tool-access.md)
 
-**Have a university account?** We recommend the Microsoft Copilot desktop app, signed in with that account. In Copilot Cowork, choose **Sol + High reasoning effort** when available. Using existing university access may save you a separate subscription. The agent checks permissions, included features and any extra charges first. [Setup and academic-use guidance](skills/interactive-classroom-presentation/references/tool-access.md#start-with-your-university-access)
+**University Copilot is not our recommended build route.** The university setup reported for this project cannot connect to GitHub or accept file uploads. We have withdrawn the earlier recommendation to start there. Choose a tool that can actually work with the project; a university login alone does not provide those capabilities. [Access check and alternatives](skills/interactive-classroom-presentation/references/tool-access.md#check-access-before-you-start)
 
 ```text
 Use https://github.com/scaled-thinking/present-together as your guide.
+Before asking for files, check that you can read this guide, work with project
+files, run code and test the result. If access is missing, explain it first.
 Read its interactive-classroom-presentation SKILL.md and follow its workflow.
 
 Help me develop an interactive activity around my own presentation.
-First check permitted use against the abstracted institution rules, before reading
-my teaching files. Then check your tools and guide me through any setup.
-Check any university AI access I already have before suggesting a paid plan.
+Check permitted use against the abstracted institution rules before reading my
+teaching files. Guide me through any remaining setup.
+Check whether a tool I already have can do the job before suggesting a paid plan.
 Prefer Sol with High reasoning effort when available and permitted.
 
 Analyse my material with me. Help clarify what the audience should learn,
@@ -34,7 +36,7 @@ Keep my originals, credentials and participant data safe. Explain how to use,
 save, restore and stop the activity. Ask only what you need for the next step.
 ```
 
-Your first message can include your audience, time and activity idea, if known. "Let's brainstorm" is enough. The agent first checks whether the intended use and materials are permitted, then asks for the presentation. If it cannot read GitHub, download **Code > Download ZIP** and give it the skill file. No native skill installation is required.
+Your first message can include your audience, time and activity idea, if known. "Let's brainstorm" is enough. The agent checks permitted use and file access before asking for the presentation. If it cannot read GitHub but permitted local-file access works, use **Code > Download ZIP** and give it the extracted guide. If neither route works, choose a capable, permitted agent instead. No native skill installation is required.
 
 > **Academic-use boundary:** this workflow is for ungraded, independent presentations using your own or permitted shareable material, outside graded submissions. Do not provide institutional teaching materials to external agents. An ungraded submission still counts as a submission. The skill applies an abstracted rules check first; it does not grant institutional approval. [Details](docs/ACADEMIC_USE.md)
 
@@ -63,7 +65,7 @@ For online participation, people need a working external link. A local preview i
 
 ## Costs and reuse
 
-Check your existing university access before buying an agent subscription. Eligible Microsoft Copilot Chat access can be included; Cowork and other agent features may have separate charges. If you need another tool, a basic subscription around EUR 20/month may cover a small adaptation, depending on access and usage. [Model and cost guidance](docs/MODELS.md)
+Check whether a tool you already have supports the build before buying a subscription. Included university chat access is useful only for tasks it can actually perform. If you need a coding agent, a basic subscription around EUR 20/month may cover a small adaptation, depending on access and usage. [Model and cost guidance](docs/MODELS.md)
 
 The Singularity example's former server had an estimated list price of **US$0.33/day**, before tax and traffic. Eligible allowances or trial credits can reduce the amount payable to zero. Other activities may use managed hosting, static hosting or a different setup. The agent checks current prices and limits before you commit. [Cost breakdown and saving to GitHub](docs/HOSTING.md)
 

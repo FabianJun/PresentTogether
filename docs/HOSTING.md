@@ -33,7 +33,7 @@ Ask the agent to produce a short table for **your** planned setup:
 
 | Item | The agent should establish |
 |---|---|
-| Coding agent | Existing university entitlement first, then any plan or usage cost and whether extra usage is enabled. [Model guidance](MODELS.md) |
+| Coding agent | Whether existing access supports files, execution and testing; then any plan or usage cost and whether extra usage is enabled. [Model guidance](MODELS.md) |
 | VM | Region, type, standard versus Spot, hours, and whether your free allowance is still available. |
 | Disk | Size and disk type; a faster default disk may fall outside the relevant allowance. |
 | Internet access | Address, outbound traffic, and any other network charges. |

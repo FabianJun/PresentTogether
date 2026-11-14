@@ -2,7 +2,7 @@
 
 **Start by giving your agent the [repository link and starter prompt](../README.md#start-here). It reads the guide, checks its tools and leads you through the process. You do not write code or deploy anything.**
 
-You bring the material and teaching judgement. The agent helps you explore, build and improve a way for people to take part. Microsoft Copilot, Codex, Claude Cowork, GitHub Copilot and other capable tools can follow the workflow; the relevant capabilities matter more than the brand. [Tool guidance](../skills/interactive-classroom-presentation/references/tool-access.md)
+You bring the material and teaching judgement. The agent helps you explore, build and improve a way for people to take part. Start with a coding agent such as Codex, Claude Code or GitHub Copilot in VS Code. Claude Cowork and other tools may also fit when they provide the required access. [Tool guidance](../skills/interactive-classroom-presentation/references/tool-access.md)
 
 The process is: **check permitted use -> provide -> analyse -> explore together -> plan access and costs -> build -> test -> get feedback -> iterate -> rehearse and use**.
 
@@ -18,13 +18,13 @@ This workflow is for ungraded activities using your own shareable content, outsi
 
 After the initial use check, the agent asks for your permitted presentation. Tell it who will take part, how long you have and what you hope people will understand, if known. An activity idea is optional. "Let's brainstorm" is a useful starting point too.
 
-The [starter prompt](../README.md#start-here) is the single entry point. You do not need to install a skill manually: the agent can read `SKILL.md` and its references. If it cannot open GitHub, use **Code > Download ZIP** and give it the extracted skill file. It should help you enable any missing access or carry the agreed brief to a suitable agent.
+The [starter prompt](../README.md#start-here) is the single entry point. You do not need to install a skill manually: the agent can read `SKILL.md` and its references. If it cannot open GitHub but permitted local-file access works, use **Code > Download ZIP** and give it the extracted guide. If both routes are unavailable, use a capable, permitted agent. Do not spend time trying to upload files to a tool that cannot accept or read them.
 
 The agent handles programming, tests and deployment. You may need to sign in, grant access or approve a specific cost. It should not leave you with terminal commands or cloud-administration tasks to work out yourself.
 
-For university users, we recommend installing the **Microsoft Copilot desktop app** and signing in with the **university account**. Check that its work/school protection indicator is present. This follows the account-protection approach in the reviewed the institution guidance; installing an app alone does not establish permission. The [short setup guide](../skills/interactive-classroom-presentation/references/tool-access.md#start-with-your-university-access) explains the steps.
+**The university Copilot setup reported for this project cannot connect to GitHub or accept file uploads.** It is not our recommended tool for the build. It may still help with permitted general brainstorming, but that is separate from reading a presentation, building an app and testing it. Installing its desktop app does not establish that these missing features will become available. [Access check](../skills/interactive-classroom-presentation/references/tool-access.md#check-access-before-you-start)
 
-In Copilot Cowork, select **Sol** and **High reasoning effort** if your institution makes them available. Ask the agent to check your existing entitlement before suggesting a purchase: included Chat access does not necessarily include Cowork usage. If another agent is needed, a basic subscription around EUR 20 a month may cover a small adaptation. [Models, alternatives and costs](MODELS.md)
+Once a capable tool is available, choose **Sol + High reasoning effort** where offered, or a suitable alternative such as Opus. The agent checks existing access and costs before recommending a purchase. A basic coding-agent subscription around EUR 20 a month may cover a small adaptation. A different provider must still be permitted for your material and use. [Models, alternatives and costs](MODELS.md)
 
 ## 2. Analyse what the audience needs to understand
 

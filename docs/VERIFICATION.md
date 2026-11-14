@@ -2,11 +2,11 @@
 
 Public package checked on 14 November 2026. Application checks use synthetic participants, not real classroom responses.
 
-## University Copilot guidance
+## University Copilot correction
 
-The starter prompt, beginner's guide and skill recommend checking existing university access before buying a subscription, using the Microsoft Copilot desktop app and choosing Sol with High reasoning effort where available. Official Microsoft documentation was checked for installation, account protection, model controls and licensing. The the institution account guidance remains abstracted; no institutional source files were added.
+The maintainer reports that the university Copilot setup cannot connect to GitHub or accept file uploads. The earlier recommendation to start with that tool has been withdrawn from the starter guide, model guidance and skill. This is user-reported evidence; the university configuration was not independently inspected. General product documentation did not establish that this account could complete the workflow.
 
-Review covered included Chat access without Cowork, missing model controls, a personal rather than university account, and the distinction from GitHub Copilot. The agent must check permission, capability and extra costs before proceeding. The skill validator and public-package checks passed. Actual university entitlements and a full build through Copilot were not tested; the example's application and exports are unchanged.
+The entry point now asks the agent to verify repository, file, execution and testing access before requesting teaching files. Review covers a permitted local-file fallback when GitHub cannot be read, and switching to a capable, permitted tool when both routes are unavailable. The policy guidance remains abstracted, and the example's application and exports are unchanged. These are instruction checks, not a tested build through every named product.
 
 ## PresentTogether workflow revision
 

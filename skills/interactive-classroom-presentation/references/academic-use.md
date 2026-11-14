@@ -23,7 +23,7 @@ For other institutions, check their applicable rules as well. Do not present the
 ## Principles behind the check
 
 - **Approved tools matter.** The reviewed institution rules restrict submission tools. Paying for an external agent or enabling privacy controls does not make it an approved tool.
-- **Check the exact Copilot experience.** The reviewed Microsoft Copilot fallback requires university sign-in and evidence of its data-protection indicator. Check current permission for the mode and model being used. A desktop installation is a convenience choice; GitHub Copilot is a different product. None of these checks expands this project's use boundary.
+- **Check the exact Copilot experience.** The reviewed Microsoft Copilot fallback requires university sign-in and evidence of its data-protection indicator. This does not guarantee file, GitHub or coding access. Check current permission separately from technical capability; GitHub Copilot is a different product. Do not bypass institutional restrictions by moving material to another account or provider. None of these checks expands this project's use boundary.
 - **Material and data need permission.** Access to a course file does not automatically permit sending it to an external provider. Keep institutional and personal information out of public repositories.
 - **Students retain responsibility.** They must understand, check and be able to explain their work. AI support must not replace the independent reasoning required by their course.
 - **Disclosure and evidence matter.** Applicable rules may require a declaration, prompts, tool details and retained outputs. Follow the current requirements rather than treating this guide as a substitute.
