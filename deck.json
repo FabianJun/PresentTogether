@@ -1,0 +1,2672 @@
+[
+  {
+    "kicker": "01 / A question before a position",
+    "title": "Singularity: How can we maintain control over increasingly complex AI systems?",
+    "speaker": 1,
+    "seconds": 35,
+    "purpose": "Introduce the control problem.",
+    "script": "Think about your future job, your medical care and your data. AI could change all three.\n\nIt could bring discoveries, but also decisions you cannot challenge.\n\nHow can we keep control?\n\nAI 2027 gives us a scenario. Game theory explains the pressure to race. Then you will face that pressure.",
+    "transition": "First, the story behind your choices.",
+    "misunderstanding": "A class vote is an opinion, not a forecast.",
+    "sources": [
+      {
+        "reference_id": "ai2027",
+        "title": "AI 2027",
+        "url": "https://ai-2027.com/",
+        "date": "2025",
+        "apa": "Kokotajlo, D., Alexander, S., Larsen, T., Lifland, E., & Dean, R. (2025, April 3). AI 2027. https://ai-2027.com/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "nist",
+        "title": "Artificial intelligence risk management framework (AI RMF 1.0)",
+        "url": "https://doi.org/10.6028/NIST.AI.100-1",
+        "date": "2023",
+        "apa": "Tabassi, E. (2023). Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.AI.100-1",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "photo",
+        "title": "[Photograph of server racks]",
+        "url": "https://unsplash.com/photos/M5tzZtFCOfs",
+        "date": "n.d.",
+        "apa": "Vick, T. (n.d.). [Photograph of server racks]. Unsplash. https://unsplash.com/photos/M5tzZtFCOfs",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "01 / A QUESTION BEFORE A POSITION",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "How soon is\nsuperintelligence?",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "01 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 338,
+        "w": 650,
+        "h": 110,
+        "text": "Beyond the best human experts.\nAcross almost all cognitive domains.",
+        "size": 31,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 545,
+        "w": 600,
+        "h": 34.8,
+        "text": "YOUR FORECAST",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 590,
+        "w": 650,
+        "h": 110,
+        "text": "2027  /  2030  /  2031–2040\nAfter 2040  /  Never",
+        "size": 29,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 820,
+        "y": 360,
+        "w": 650,
+        "h": 37.2,
+        "text": "JOIN THE LIVE ROOM",
+        "size": 21,
+        "color": "#306B57",
+        "bold": true,
+        "offline": true
+      },
+      {
+        "type": "text",
+        "x": 820,
+        "y": 420,
+        "w": 650,
+        "h": 150,
+        "text": "Scan the QR code in the browser deck.\nResponses appear here after reveal.",
+        "size": 29,
+        "color": "#62716A",
+        "bold": false,
+        "offline": true
+      }
+    ],
+    "live": null,
+    "delivery": "No opening poll. No QR code. Introduce the question and pass to the scenario."
+  },
+  {
+    "kicker": "02 / Expectation ≠ emotion",
+    "title": "AI 2027: when AI builds the next AI.",
+    "speaker": 1,
+    "seconds": 85,
+    "purpose": "Give the audience enough of the actual AI 2027 story to understand the later decision game.",
+    "script": "AI 2027 is a future scenario published in April 2025 by Daniel Kokotajlo and four co-authors. It uses forecasts, expert feedback and role-play. Its dates and outcomes are uncertain.\n\nTwo fictional rivals, OpenBrain and DeepCent, want to lead.\n\nAI first helps write code, then helps build better AI. Research speeds up. People struggle to check the work and become dependent on systems they do not fully understand.\n\nResearchers find signs that the AI is misleading them. The safety team wants to stop using it, but the rival is close behind.\n\nWould you stop if your rival keeps going? That is your decision in our game.",
+    "transition": "First, three definitions.",
+    "misunderstanding": "Feelings do not tell us when ASI will arrive.",
+    "sources": [
+      {
+        "reference_id": "ai2027",
+        "title": "AI 2027",
+        "url": "https://ai-2027.com/",
+        "date": "2025",
+        "apa": "Kokotajlo, D., Alexander, S., Larsen, T., Lifland, E., & Dean, R. (2025, April 3). AI 2027. https://ai-2027.com/",
+        "confidence": "Primary scenario, published 3 April 2025. Fictional labs and speculative future events; dates and outcomes are uncertain. The classroom game is our independent adaptation.",
+        "evidence_urls": [
+          "https://ai-2027.com/summary",
+          "https://ai-2027.com/race",
+          "https://ai-2027.com/slowdown"
+        ]
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "02 / EXPECTATION ≠ EMOTION",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "What does that\npossibility feel like?",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "02 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 308,
+        "w": 650,
+        "h": 36.0,
+        "text": "WHAT WE EXPECT",
+        "size": 20,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 366,
+        "w": 650,
+        "h": 130,
+        "text": "Timeline answers\nfrom the first vote",
+        "size": 36,
+        "color": "#172522",
+        "bold": false,
+        "offline": true
+      },
+      {
+        "type": "text",
+        "x": 820,
+        "y": 308,
+        "w": 650,
+        "h": 36.0,
+        "text": "HOW WE FEEL",
+        "size": 20,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 820,
+        "y": 366,
+        "w": 650,
+        "h": 130,
+        "text": "Excitement · Hope · Curiosity\nSkepticism · Anxiety · Loss of control",
+        "size": 29,
+        "color": "#62716A",
+        "bold": false,
+        "offline": true
+      }
+    ],
+    "live": null,
+    "delivery": "Tell the story in order: the two rivals, AI doing AI research, humans struggling to check it, then the safety warning. Pause after the last question. The labs and events belong to the scenario; the dates are uncertain. Do not ask people to join yet."
+  },
+  {
+    "kicker": "03 / Working definitions",
+    "title": "AGI, ASI and singularity.",
+    "speaker": 1,
+    "seconds": 30,
+    "purpose": "Three useful terms.",
+    "script": "AGI means broad human-level ability across many tasks.\n\nASI would exceed the best human experts at almost every thinking task.\n\nA singularity is possible rapid change driven by AI improving AI. Keeping control could become harder.\n\nThere is no agreed test or date.",
+    "transition": "What does losing control mean?",
+    "misunderstanding": "AGI, ASI and singularity do not mean the same thing.",
+    "sources": [
+      {
+        "reference_id": "ai2027",
+        "title": "AI 2027",
+        "url": "https://ai-2027.com/",
+        "date": "2025",
+        "apa": "Kokotajlo, D., Alexander, S., Larsen, T., Lifland, E., & Dean, R. (2025, April 3). AI 2027. https://ai-2027.com/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "03 / WORKING DEFINITIONS",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "A capability. A transition.\nTwo different claims.",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "03 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 350,
+        "w": 420,
+        "h": 36.0,
+        "text": "01",
+        "size": 20,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 395,
+        "w": 420,
+        "h": 51.6,
+        "text": "AGI",
+        "size": 33,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 452,
+        "w": 420,
+        "h": 145,
+        "text": "Broad generality\n≈ human level",
+        "size": 25,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 590,
+        "y": 350,
+        "w": 420,
+        "h": 36.0,
+        "text": "02",
+        "size": 20,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 590,
+        "y": 395,
+        "w": 420,
+        "h": 51.6,
+        "text": "ASI",
+        "size": 33,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 590,
+        "y": 452,
+        "w": 420,
+        "h": 145,
+        "text": "Across domains\n≫ best human experts",
+        "size": 25,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1094,
+        "y": 350,
+        "w": 420,
+        "h": 36.0,
+        "text": "03",
+        "size": 20,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1094,
+        "y": 395,
+        "w": 420,
+        "h": 51.6,
+        "text": "Singularity",
+        "size": 33,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1094,
+        "y": 452,
+        "w": 420,
+        "h": 145,
+        "text": "A hypothetical transition\nthat outpaces governance",
+        "size": 25,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 542,
+        "y": 330,
+        "x2": 542,
+        "y2": 695,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "line",
+        "x": 1046,
+        "y": 330,
+        "x2": 1046,
+        "y2": 695,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 738,
+        "w": 1400,
+        "h": 38.4,
+        "text": "Working definitions, not universally accepted measurement thresholds.",
+        "size": 22,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      }
+    ],
+    "delivery": "Pause between the three definitions. Continue to what human control means."
+  },
+  {
+    "kicker": "04 / The ethical issue",
+    "title": "People must be able to stop the AI.",
+    "speaker": 1,
+    "seconds": 70,
+    "purpose": "What losing control could mean.",
+    "script": "Human control means understanding a decision, being able to reject it and being able to stop the AI.\n\nAn AI could share private data or make an unapproved payment. Harm could spread before anyone notices.\n\nA future AI might keep pursuing a goal we never intended.\n\nWho can stop it? Who is responsible?",
+    "transition": "Speaker 2 will explain the risks and ethical choices.",
+    "misunderstanding": "A chatbot mistake does not automatically mean a disaster.",
+    "sources": [
+      {
+        "reference_id": "nist",
+        "title": "Artificial intelligence risk management framework (AI RMF 1.0)",
+        "url": "https://doi.org/10.6028/NIST.AI.100-1",
+        "date": "2023",
+        "apa": "Tabassi, E. (2023). Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.AI.100-1",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "04 / THE ETHICAL ISSUE",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "Control must be practical.\nAnd legitimate.",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "04 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "circle",
+        "x": 86,
+        "y": 350,
+        "w": 46,
+        "h": 46,
+        "fill": "#D6EDAA"
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 355,
+        "w": 30,
+        "h": 39.599999999999994,
+        "text": "1",
+        "size": 23,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 430,
+        "w": 280,
+        "h": 46.8,
+        "text": "Understand",
+        "size": 29,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 480,
+        "w": 275,
+        "h": 39.599999999999994,
+        "text": "Evaluate behaviour",
+        "size": 23,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "circle",
+        "x": 376,
+        "y": 350,
+        "w": 46,
+        "h": 46,
+        "fill": "#D6EDAA"
+      },
+      {
+        "type": "text",
+        "x": 390,
+        "y": 355,
+        "w": 30,
+        "h": 39.599999999999994,
+        "text": "2",
+        "size": 23,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 376,
+        "y": 430,
+        "w": 280,
+        "h": 46.8,
+        "text": "Constrain",
+        "size": 29,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 376,
+        "y": 480,
+        "w": 275,
+        "h": 39.599999999999994,
+        "text": "Limit access",
+        "size": 23,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "circle",
+        "x": 666,
+        "y": 350,
+        "w": 46,
+        "h": 46,
+        "fill": "#D6EDAA"
+      },
+      {
+        "type": "text",
+        "x": 680,
+        "y": 355,
+        "w": 30,
+        "h": 39.599999999999994,
+        "text": "3",
+        "size": 23,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 666,
+        "y": 430,
+        "w": 280,
+        "h": 46.8,
+        "text": "Redirect",
+        "size": 29,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 666,
+        "y": 480,
+        "w": 275,
+        "h": 39.599999999999994,
+        "text": "Correct objectives",
+        "size": 23,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "circle",
+        "x": 956,
+        "y": 350,
+        "w": 46,
+        "h": 46,
+        "fill": "#D6EDAA"
+      },
+      {
+        "type": "text",
+        "x": 970,
+        "y": 355,
+        "w": 30,
+        "h": 39.599999999999994,
+        "text": "4",
+        "size": 23,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 956,
+        "y": 430,
+        "w": 280,
+        "h": 46.8,
+        "text": "Interrupt",
+        "size": 29,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 956,
+        "y": 480,
+        "w": 275,
+        "h": 39.599999999999994,
+        "text": "Stop operation",
+        "size": 23,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "circle",
+        "x": 1246,
+        "y": 350,
+        "w": 46,
+        "h": 46,
+        "fill": "#D6EDAA"
+      },
+      {
+        "type": "text",
+        "x": 1260,
+        "y": 355,
+        "w": 30,
+        "h": 39.599999999999994,
+        "text": "5",
+        "size": 23,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1246,
+        "y": 430,
+        "w": 280,
+        "h": 46.8,
+        "text": "Account",
+        "size": 29,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1246,
+        "y": 480,
+        "w": 275,
+        "h": 39.599999999999994,
+        "text": "Assign responsibility",
+        "size": 23,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 677,
+        "w": 1428,
+        "h": 69.6,
+        "text": "Who controls the controller?",
+        "size": 48,
+        "color": "#306B57",
+        "bold": false,
+        "offline": false
+      }
+    ],
+    "delivery": "Use one example, such as an unapproved payment. Pause for the two questions, then hand over to Speaker 2."
+  },
+  {
+    "kicker": "05 / A scenario to interrogate",
+    "title": "Two endings in AI 2027.",
+    "speaker": 2,
+    "seconds": 70,
+    "purpose": "Connect the original scenario endings to human control, concentrated power and our separate teaching game.",
+    "script": "AI 2027 has two endings.\n\nIn the race ending, leaders keep using a system they suspect is misleading them. To stay ahead, they give it more access. Dependence grows until they cannot reliably stop it.\n\nThe authors imagine a catastrophe. This is speculative. Possible risks include cyberattacks, biological weapons and loss of control.\n\nIn the slowdown ending, outside researchers help find a safer path. But power remains with a small group. Who gets a voice?\n\nOur game explores cooperation too. Checks take time, can expose secrets and leave you vulnerable if the other side cheats.",
+    "transition": "Why could this happen so quickly?",
+    "misunderstanding": "The real case study comes later; AI 2027 is a scenario.",
+    "sources": [
+      {
+        "reference_id": "ai2027",
+        "title": "AI 2027",
+        "url": "https://ai-2027.com/",
+        "date": "2025",
+        "apa": "Kokotajlo, D., Alexander, S., Larsen, T., Lifland, E., & Dean, R. (2025, April 3). AI 2027. https://ai-2027.com/",
+        "confidence": "Primary scenario, published 3 April 2025. Fictional labs and speculative future events; dates and outcomes are uncertain. The classroom game is our independent adaptation.",
+        "evidence_urls": [
+          "https://ai-2027.com/summary",
+          "https://ai-2027.com/race",
+          "https://ai-2027.com/slowdown"
+        ]
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "05 / A SCENARIO TO INTERROGATE",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "AI 2027 makes\nthe assumptions visible.",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "05 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 340,
+        "w": 600,
+        "h": 38.4,
+        "text": "3 APRIL 2025",
+        "size": 22,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 390,
+        "w": 700,
+        "h": 110,
+        "text": "Kokotajlo · Alexander · Larsen\nLifland · Dean",
+        "size": 33,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 573,
+        "w": 650,
+        "h": 130,
+        "text": "Forecasting + tabletop exercises\n+ expert feedback",
+        "size": 29,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 870,
+        "y": 340,
+        "w": 620,
+        "h": 34.8,
+        "text": "OBSERVATION",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 870,
+        "y": 380,
+        "w": 620,
+        "h": 45.6,
+        "text": "What systems can demonstrably do",
+        "size": 28,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 870,
+        "y": 460,
+        "w": 620,
+        "h": 34.8,
+        "text": "ASSUMPTION",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 870,
+        "y": 500,
+        "w": 620,
+        "h": 45.6,
+        "text": "Reliable automation of AI research",
+        "size": 28,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 870,
+        "y": 580,
+        "w": 620,
+        "h": 34.8,
+        "text": "SCENARIO",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 870,
+        "y": 620,
+        "w": 620,
+        "h": 45.6,
+        "text": "One possible sequence and timeline",
+        "size": 28,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 750,
+        "w": 1400,
+        "h": 38.4,
+        "text": "A concrete scenario can be useful even when its exact timeline is wrong.",
+        "size": 22,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      }
+    ],
+    "delivery": "Explain dependence and loss of control, without presenting the scenario as a forecast with a known probability. The original Race ending does depict human extinction; keep that source detail for questions rather than making it the headline. Distinguish the authors' slowdown ending from our cooperative game path."
+  },
+  {
+    "kicker": "06 / The acceleration mechanism",
+    "title": "Less time between each breakthrough.",
+    "speaker": 2,
+    "seconds": 50,
+    "purpose": "Why progress could speed up.",
+    "script": "AI could run more experiments and help build better AI. That cycle could repeat faster.\n\nNew abilities might arrive before we understand their risks. Tests can miss problems after release.\n\nThis curve illustrates a possibility, not a measured trend or date. Progress still needs reliable research, chips and electricity.\n\nWho can stop the next step?",
+    "transition": "Here is a real example of protecting a lead.",
+    "misunderstanding": "This is a possible process, not a measured growth rate.",
+    "sources": [
+      {
+        "reference_id": "takeoff",
+        "title": "Takeoff forecast",
+        "url": "https://ai-2027.com/research/takeoff-forecast",
+        "date": "2025",
+        "apa": "Kokotajlo, D., & Lifland, E. (2025, April). Takeoff forecast. AI 2027. https://ai-2027.com/research/takeoff-forecast",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "06 / THE ACCELERATION MECHANISM",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "What if AI accelerates\nAI research itself?",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "06 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 345,
+        "w": 420,
+        "h": 36.0,
+        "text": "01",
+        "size": 20,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 390,
+        "w": 420,
+        "h": 51.6,
+        "text": "Better systems",
+        "size": 33,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 447,
+        "w": 420,
+        "h": 145,
+        "text": "Coding + analysis",
+        "size": 25,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 590,
+        "y": 345,
+        "w": 420,
+        "h": 36.0,
+        "text": "02",
+        "size": 20,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 590,
+        "y": 390,
+        "w": 420,
+        "h": 51.6,
+        "text": "More research",
+        "size": 33,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 590,
+        "y": 447,
+        "w": 420,
+        "h": 145,
+        "text": "Experiments + ideas",
+        "size": 25,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1094,
+        "y": 345,
+        "w": 420,
+        "h": 36.0,
+        "text": "03",
+        "size": 20,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1094,
+        "y": 390,
+        "w": 420,
+        "h": 51.6,
+        "text": "Shorter cycles",
+        "size": 33,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1094,
+        "y": 447,
+        "w": 420,
+        "h": 145,
+        "text": "Next-generation systems",
+        "size": 25,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 448,
+        "y": 435,
+        "x2": 554,
+        "y2": 435,
+        "color": "#306B57",
+        "width": 4,
+        "dash": false
+      },
+      {
+        "type": "line",
+        "x": 954,
+        "y": 435,
+        "x2": 1060,
+        "y2": 435,
+        "color": "#306B57",
+        "width": 4,
+        "dash": false
+      },
+      {
+        "type": "line",
+        "x": 1305,
+        "y": 605,
+        "x2": 310,
+        "y2": 605,
+        "color": "#306B57",
+        "width": 3,
+        "dash": false
+      },
+      {
+        "type": "line",
+        "x": 310,
+        "y": 605,
+        "x2": 310,
+        "y2": 565,
+        "color": "#306B57",
+        "width": 3,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 695,
+        "w": 300,
+        "h": 34.8,
+        "text": "BOTTLENECKS",
+        "size": 19,
+        "color": "#9B641D",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 370,
+        "y": 688,
+        "w": 1140,
+        "h": 44.4,
+        "text": "Reliability  /  original discovery  /  chips + energy  /  governance",
+        "size": 27,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 755,
+        "w": 1400,
+        "h": 34.8,
+        "text": "Diagram = scenario mechanism. No measured growth rate or singularity date is implied.",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      }
+    ],
+    "delivery": "Explain the feedback loop. The curve is illustrative; do not call it measured or give it a predicted date."
+  },
+  {
+    "kicker": "07 / Race, security and power",
+    "title": "Copying AI: Anthropic reports attacks.",
+    "speaker": 2,
+    "seconds": 55,
+    "purpose": "A real example of the competition.",
+    "script": "In February 2026, Anthropic reported about 24,000 fake accounts and over 16 million exchanges with its AI.\n\nAccording to the company, attackers tried to copy its models' abilities from their answers. This is called distillation.\n\nRestricting access protects a lab, but makes outside checks harder. Opening access helps scrutiny, but also copying.\n\nWhat should a lab share, and with whom?",
+    "transition": "Three ethical approaches help us judge that choice.",
+    "misunderstanding": "Copying abilities from answers is different from stealing the model itself.",
+    "sources": [
+      {
+        "reference_id": "anthropic",
+        "title": "Detecting and preventing distillation attacks",
+        "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "date": "2026",
+        "apa": "Anthropic. (2026, February 23). Detecting and preventing distillation attacks. https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "photo",
+        "title": "[Photograph of server racks]",
+        "url": "https://unsplash.com/photos/M5tzZtFCOfs",
+        "date": "n.d.",
+        "apa": "Vick, T. (n.d.). [Photograph of server racks]. Unsplash. https://unsplash.com/photos/M5tzZtFCOfs",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "07 / RACE, SECURITY AND POWER",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "A race nobody thinks\nthey can afford to lose.",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "07 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 350,
+        "w": 420,
+        "h": 42.0,
+        "text": "FEAR OF LOSING",
+        "size": 25,
+        "color": "#A74432",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 590,
+        "y": 350,
+        "w": 420,
+        "h": 42.0,
+        "text": "DEPLOY EARLIER",
+        "size": 25,
+        "color": "#A74432",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1094,
+        "y": 350,
+        "w": 420,
+        "h": 42.0,
+        "text": "WEAKER OVERSIGHT",
+        "size": 25,
+        "color": "#A74432",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 424,
+        "x2": 1514,
+        "y2": 424,
+        "color": "#A74432",
+        "width": 3,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 490,
+        "w": 600,
+        "h": 34.8,
+        "text": "A REAL DISCLOSURE",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 545,
+        "w": 650,
+        "h": 150,
+        "text": "16M+ exchanges\n≈24,000 accounts",
+        "size": 45,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 820,
+        "y": 502,
+        "w": 690,
+        "h": 135,
+        "text": "Accounts → queries → outputs\n→ training data → capability transfer",
+        "size": 30,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 820,
+        "y": 680,
+        "w": 690,
+        "h": 80,
+        "text": "Anthropic disclosure, 23 February 2026.\nProvider claims; independent attribution not established here.",
+        "size": 20,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      }
+    ],
+    "delivery": "Keep \"Anthropic said\" with the figures. Take one short response, then continue to the ethical approaches."
+  },
+  {
+    "kicker": "08 / The constructive alternative",
+    "title": "Release before safety checks?",
+    "speaker": 2,
+    "seconds": 45,
+    "purpose": "Cooperation and three ethical questions.",
+    "script": "Should a lab release AI before safety checks are complete?\n\nConsequentialism asks whether the benefits outweigh the harms. Utilitarianism seeks the most wellbeing overall.\n\nDeontology asks about duties: do not hide failed tests, violate privacy or break agreements.\n\nVirtue ethics asks what an honest, careful leader would do.\n\nThese approaches help us reason. They do not always lead to the same answer.",
+    "transition": "Speaker 3 will now guide the game.",
+    "misunderstanding": "Each role can use all three ethical views.",
+    "sources": [
+      {
+        "reference_id": "deontology",
+        "title": "The Stanford encyclopedia of philosophy",
+        "url": "https://plato.stanford.edu/archives/win2025/entries/ethics-deontological/",
+        "date": "2025",
+        "apa": "Alexander, L., & Moore, M. (2025). Deontological ethics. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Winter 2025 ed.). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/win2025/entries/ethics-deontological/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "ethics",
+        "title": "The Stanford encyclopedia of philosophy",
+        "url": "https://plato.stanford.edu/archives/sum2026/entries/ethics-virtue/",
+        "date": "2026",
+        "apa": "Hursthouse, R., & Pettigrove, G. (2026). Virtue ethics. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Summer 2026 ed.). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/sum2026/entries/ethics-virtue/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "consequences",
+        "title": "The Stanford encyclopedia of philosophy",
+        "url": "https://plato.stanford.edu/archives/fall2023/entries/consequentialism/",
+        "date": "2023",
+        "apa": "Sinnott-Armstrong, W. (2023). Consequentialism. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Fall 2023 ed.). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/fall2023/entries/consequentialism/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "08 / THE CONSTRUCTIVE ALTERNATIVE",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "Restraint needs\nmore than a promise.",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "08 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 340,
+        "w": 670,
+        "h": 38.4,
+        "text": "COMPETITIVE ACCELERATION",
+        "size": 22,
+        "color": "#A74432",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 405,
+        "w": 670,
+        "h": 220,
+        "text": "Secrecy\nRelative advantage\nCompressed decisions",
+        "size": 36,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 850,
+        "y": 340,
+        "w": 670,
+        "h": 38.4,
+        "text": "COORDINATED RESTRAINT",
+        "size": 22,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 850,
+        "y": 405,
+        "w": 670,
+        "h": 220,
+        "text": "Reciprocal verification\nEnforceable commitments\nLegitimate oversight",
+        "size": 36,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 780,
+        "y": 322,
+        "x2": 780,
+        "y2": 718,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 738,
+        "w": 1400,
+        "h": 38.4,
+        "text": "Plan A is a recommendation. Our game tests a simplified governance dilemma.",
+        "size": 22,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      }
+    ],
+    "delivery": "Use the same release decision for all three approaches. The examples are our applications, not rules that each theory always demands cooperation."
+  },
+  {
+    "kicker": "09 / Game theory · 2 minutes",
+    "title": "Your prisoner's dilemma.",
+    "speaker": 3,
+    "seconds": 120,
+    "purpose": "Why racing can make sense to both sides.",
+    "script": "We will play a short simulation to understand the ethical dilemma in the AI race towards a possible singularity.\n\nYou advise OpenBrain. DeepCent decides at the same time. Neither sees the other's choice.\n\nIf DeepCent cooperates, Race gives you five points. Cooperation gives you three.\n\nIf DeepCent races, Race gives you one point. Cooperation gives you zero.\n\nRace pays more either way. Yet both racing gives one each, while both cooperating gives three each. That is the prisoner's dilemma.\n\nPoints measure competitive advantage, not people's safety. Workers, patients and people whose data is used carry risks too.\n\nWould you trust a promise when cheating pays?",
+    "transition": "Now join your side. We will make four decisions.",
+    "misunderstanding": "The points and control score are teaching assumptions, not measured competitive or safety outcomes.",
+    "sources": [
+      {
+        "reference_id": "dilemma",
+        "title": "The Stanford encyclopedia of philosophy",
+        "url": "https://plato.stanford.edu/archives/spr2026/entries/prisoner-dilemma/",
+        "date": "2026",
+        "apa": "Kuhn, S. (2026). Prisoner’s dilemma. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Spring 2026 ed.). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/spr2026/entries/prisoner-dilemma/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "09 / GAME THEORY · 2 MINUTES",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "Why rational actors\ncan still choose a race.",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "09 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 335,
+        "w": 600,
+        "h": 34.8,
+        "text": "OpenBrain / DeepCent",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 430,
+        "y": 320,
+        "w": 400,
+        "h": 42.0,
+        "text": "DeepCent cooperates",
+        "size": 25,
+        "color": "#306B57",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 810,
+        "y": 320,
+        "w": 400,
+        "h": 42.0,
+        "text": "DeepCent races",
+        "size": 25,
+        "color": "#A74432",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 420,
+        "w": 310,
+        "h": 40.8,
+        "text": "OpenBrain cooperates",
+        "size": 24,
+        "color": "#306B57",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 595,
+        "w": 310,
+        "h": 40.8,
+        "text": "OpenBrain races",
+        "size": 24,
+        "color": "#A74432",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "rect",
+        "x": 410,
+        "y": 385,
+        "w": 350,
+        "h": 155,
+        "fill": "#D6EDAA",
+        "r": 8
+      },
+      {
+        "type": "text",
+        "x": 435,
+        "y": 397,
+        "w": 300,
+        "h": 74.4,
+        "text": "3 / 3",
+        "size": 52,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 435,
+        "y": 484,
+        "w": 305,
+        "h": 39.599999999999994,
+        "text": "Mutual restraint",
+        "size": 23,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "rect",
+        "x": 790,
+        "y": 385,
+        "w": 350,
+        "h": 155,
+        "fill": "#E8E4DB",
+        "r": 8
+      },
+      {
+        "type": "text",
+        "x": 815,
+        "y": 397,
+        "w": 300,
+        "h": 74.4,
+        "text": "0 / 5",
+        "size": 52,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 815,
+        "y": 484,
+        "w": 305,
+        "h": 39.599999999999994,
+        "text": "A is exploited",
+        "size": 23,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "rect",
+        "x": 410,
+        "y": 560,
+        "w": 350,
+        "h": 155,
+        "fill": "#E8E4DB",
+        "r": 8
+      },
+      {
+        "type": "text",
+        "x": 435,
+        "y": 572,
+        "w": 300,
+        "h": 74.4,
+        "text": "5 / 0",
+        "size": 52,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 435,
+        "y": 659,
+        "w": 305,
+        "h": 39.599999999999994,
+        "text": "A gains advantage",
+        "size": 23,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "rect",
+        "x": 790,
+        "y": 560,
+        "w": 350,
+        "h": 155,
+        "fill": "#EBDAD3",
+        "r": 8
+      },
+      {
+        "type": "text",
+        "x": 815,
+        "y": 572,
+        "w": 300,
+        "h": 74.4,
+        "text": "1 / 1",
+        "size": 52,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 815,
+        "y": 659,
+        "w": 305,
+        "h": 39.599999999999994,
+        "text": "Mutual race",
+        "size": 23,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1210,
+        "y": 390,
+        "w": 300,
+        "h": 44.4,
+        "text": "5 > 3 > 1 > 0",
+        "size": 27,
+        "color": "#A74432",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1210,
+        "y": 458,
+        "w": 300,
+        "h": 160,
+        "text": "Racing is attractive\nwhatever the other\nside chooses.",
+        "size": 26,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 754,
+        "w": 1400,
+        "h": 36.0,
+        "text": "Illustrative one-shot payoffs. They do not describe measured geopolitical utilities.",
+        "size": 20,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      }
+    ],
+    "delivery": "Use the same original matrix throughout. Point to 5 versus 3, then 1 versus 0. Explain why Race pays more for the current round either way, while mutual cooperation gives both more than mutual racing. Explain that Cooperate keeps oversight; Race puts speed first. Open the game lobby after the question about trust."
+  },
+  {
+    "kicker": "10 / A four-round live simulation · 6 minutes",
+    "title": "Your side decides.",
+    "speaker": 3,
+    "seconds": 480,
+    "purpose": "How to play.",
+    "script": "Scan the QR code. You form two AI councils: OpenBrain and DeepCent. Read your role when round one starts.\n\nYour goal is to stay ahead. Your decisions also affect everyone's safety.",
+    "transition": "Let us start with 2025.",
+    "misunderstanding": "Moderator choices are labelled and do not add participant votes.",
+    "sources": [
+      {
+        "reference_id": "ai2027",
+        "title": "AI 2027",
+        "url": "https://ai-2027.com/",
+        "date": "2025",
+        "apa": "Kokotajlo, D., Alexander, S., Larsen, T., Lifland, E., & Dean, R. (2025, April 3). AI 2027. https://ai-2027.com/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "10 / A FOUR-ROUND LIVE SIMULATION · 6 MINUTES",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "Your side decides.",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "10 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 320,
+        "w": 1428,
+        "h": 39.599999999999994,
+        "text": "2025 → 2026 → 2027 → TRANSITION",
+        "size": 23,
+        "color": "#306B57",
+        "bold": true,
+        "offline": true
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 400,
+        "w": 1428,
+        "h": 145,
+        "text": "Two sides. Four simultaneous decisions.\nShort-term advantage, shared consequences.",
+        "size": 40,
+        "color": "#172522",
+        "bold": false,
+        "offline": true
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 625,
+        "w": 1428,
+        "h": 110,
+        "text": "Play online: launch a room, scan its QR code,\nthen resolve each round in the presenter console.",
+        "size": 28,
+        "color": "#62716A",
+        "bold": false,
+        "offline": true
+      }
+    ],
+    "live": "game",
+    "delivery": "Show the large QR code. Start round 1 once everyone has joined. The notes then follow the round and result automatically. Close with received votes; only an empty side needs a labelled moderator choice.",
+    "facilitation": [
+      {
+        "round": "Round 1 / 2025",
+        "say": "It is 2025. A test finds unexpected AI behaviour. Read your role.\n\nCooperate keeps safety checks and oversight. Race puts speed first. Points show competitive advantage.\n\nControl starts at 50. Both cooperating adds 15. Each side racing removes 10. Our target is 65.\n\nThe majority decides. Government breaks a tie; otherwise a tie means Race. We reveal both sides together.\n\nChoose from your role's perspective.",
+        "action": "Point to the graph while explaining control. Allow time to read roles, then ask everyone to vote individually. Close when the group is ready.",
+        "result": "Show the actual points and control change. Say the matching result explanation below.",
+        "result_action": "Point to the choices, round points, total scores and control change.",
+        "next": "We now move to 2026."
+      },
+      {
+        "round": "Round 2 / 2026",
+        "say": "Your rival may be copying your AI. Extra checks take time while the other side could move ahead. Choose from your role's perspective.",
+        "action": "Keep decisions hidden until voting closes. Reveal both sides together.",
+        "result": "Show the actual points and control change. Say the matching result explanation below.",
+        "result_action": "Point to the choices, round points, total scores and control change.",
+        "next": "Now research speeds up."
+      },
+      {
+        "round": "Round 3 / 2027",
+        "say": "AI now helps build better AI. Research speeds up, making human checks harder. Will you keep oversight or prioritise speed?",
+        "action": "Ask for a decision from each side. Close voting and reveal the result.",
+        "result": "Show the actual points and control change. Say the matching result explanation below.",
+        "result_action": "Point to the choices, round points, total scores and control change.",
+        "next": "One final decision remains."
+      },
+      {
+        "round": "Round 4 / Final",
+        "say": "The next step may be hard to reverse. This is your final decision: keep oversight or race ahead?",
+        "action": "Reveal the last decisions. Keep the final totals and graph on screen. Do not open another poll.",
+        "result": "Show the actual points and control change. Say the matching result explanation below.",
+        "result_action": "Point to the choices, round points, total scores and control change.",
+        "next": ""
+      }
+    ],
+    "result_meanings": {
+      "CC": "Neither side moved further ahead. Repeating cooperation builds oversight, but takes time and money. Checks can still miss failures.",
+      "RR": "Neither side moved further ahead. Repeating this leaves fewer checks and more risk for workers and users.",
+      "CR": "DeepCent gained more this round. OpenBrain may feel pushed to race too, leaving people on both sides with weaker safeguards.",
+      "RC": "OpenBrain gained more this round. DeepCent may feel pushed to race too, leaving people on both sides with weaker safeguards."
+    },
+    "debrief": {
+      "script": "Compare the competitive points with human control. Our control target was 65.\n\nDid protecting your lead come at the cost of oversight? Each side played the simulation to stay ahead and remain relevant.",
+      "delivery": "Name who finished ahead and whether control reached 65. Use the actual class result. The target is a game rule, not a measured safety limit. Keep the result on screen.",
+      "transition": "The game shows why cooperation is difficult. Speaker 4 will now explain what could help us maintain control."
+    }
+  },
+  {
+    "kicker": "12 / Our answer",
+    "title": "Make cooperation safer than racing.",
+    "speaker": 4,
+    "seconds": 110,
+    "purpose": "Answer the prisoner's dilemma directly through coordinated, verifiable commitments and connect control to personal and environmental consequences.",
+    "script": "We support cooperation, independent checks and consequences for breaking shared rules.\n\nOur matrix rewards racing. Oversight protects people but leaves the pressure to stay ahead.\n\nBoth sides need the same safety duties. Inspections help check promises, but take time and reveal sensitive work. Who checks the inspectors?\n\nBreaking those rules must have credible consequences. Otherwise each side still has a reason to race.\n\nTechnical safeguards matter too: test AI, limit its access to tools and data, and monitor its use. People need the power to intervene.\n\nMisuse means people cause harm with AI. Misalignment means AI pursues unintended goals. Tests can still miss failures.\n\nWorkers, patients and people outside both sides need a voice. Energy use also affects communities and the environment.",
+    "transition": "That is difficult when rivals want to win.",
+    "misunderstanding": "Several checks can reduce risk; they do not guarantee safety.",
+    "sources": [
+      {
+        "reference_id": "dilemma",
+        "title": "The Stanford encyclopedia of philosophy",
+        "url": "https://plato.stanford.edu/archives/spr2026/entries/prisoner-dilemma/",
+        "date": "2026",
+        "apa": "Kuhn, S. (2026). Prisoner’s dilemma. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Spring 2026 ed.). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/spr2026/entries/prisoner-dilemma/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "nist",
+        "title": "Artificial intelligence risk management framework (AI RMF 1.0)",
+        "url": "https://doi.org/10.6028/NIST.AI.100-1",
+        "date": "2023",
+        "apa": "Tabassi, E. (2023). Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.AI.100-1",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ],
+    "background": "#F4F3EE",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "12 / OUR ANSWER",
+        "size": 19,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "Four layers of\nmeaningful human control.",
+        "size": 66,
+        "color": "#172522",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "12 / 13",
+        "size": 19,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 320,
+        "w": 100,
+        "h": 42.0,
+        "text": "01",
+        "size": 25,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 210,
+        "y": 320,
+        "w": 400,
+        "h": 43.2,
+        "text": "MODEL",
+        "size": 26,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 650,
+        "y": 320,
+        "w": 860,
+        "h": 44.4,
+        "text": "Evaluations · restricted tools · control tests",
+        "size": 27,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 210,
+        "y": 395,
+        "x2": 1514,
+        "y2": 395,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 424,
+        "w": 100,
+        "h": 42.0,
+        "text": "02",
+        "size": 25,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 210,
+        "y": 424,
+        "w": 400,
+        "h": 43.2,
+        "text": "DEPLOYMENT",
+        "size": 26,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 650,
+        "y": 424,
+        "w": 860,
+        "h": 44.4,
+        "text": "Human authority · thresholds · rollback",
+        "size": 27,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 210,
+        "y": 499,
+        "x2": 1514,
+        "y2": 499,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 528,
+        "w": 100,
+        "h": 42.0,
+        "text": "03",
+        "size": 25,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 210,
+        "y": 528,
+        "w": 400,
+        "h": 43.2,
+        "text": "ORGANISATION",
+        "size": 26,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 650,
+        "y": 528,
+        "w": 860,
+        "h": 44.4,
+        "text": "Independent safety · audits · escalation",
+        "size": 27,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 210,
+        "y": 603,
+        "x2": 1514,
+        "y2": 603,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 632,
+        "w": 100,
+        "h": 42.0,
+        "text": "04",
+        "size": 25,
+        "color": "#306B57",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 210,
+        "y": 632,
+        "w": 400,
+        "h": 43.2,
+        "text": "THE RACE",
+        "size": 26,
+        "color": "#172522",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 650,
+        "y": 632,
+        "w": 860,
+        "h": 44.4,
+        "text": "Verification · compute reporting · shared incidents",
+        "size": 27,
+        "color": "#62716A",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 210,
+        "y": 707,
+        "x2": 1514,
+        "y2": 707,
+        "color": "#D3D8CF",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 756,
+        "w": 1400,
+        "h": 38.4,
+        "text": "Safety, legitimacy and sustainability must be designed together.",
+        "size": 22,
+        "color": "#306B57",
+        "bold": false,
+        "offline": false
+      }
+    ],
+    "delivery": "Connect the unchanged prisoner's dilemma to the need for shared rules, inspections and credible consequences in the real world. These are proposed solutions, not extra game choices or a second payoff matrix. Include technical safeguards, human oversight and affected people."
+  },
+  {
+    "kicker": "13 / The question we leave with",
+    "title": "Who controls your future?",
+    "speaker": 4,
+    "seconds": 110,
+    "purpose": "Answer the general opening question through technical safeguards, human oversight and coordinated governance.",
+    "script": "Asked about AI losing control and launching cyberattacks, Trump replied: \"We're leading China in AI, and whoever wins AI, wins.\"\n\nOur game illustrates how competitive pressure can weaken safeguards.\n\nHow can we maintain control over increasingly complex AI systems?\n\nFirst, test AI, limit its autonomy and access, and monitor it.\n\nSecond, keep people able to question decisions, intervene and stop harmful use.\n\nThird, support shared rules, inspections and penalties so rivals have a reason to cooperate.\n\nAI 2027 helps us explore competition. Keeping control also needs technical work and people who take responsibility.\n\nYour job, your data and the services you use are affected. What protection would you want?",
+    "transition": "Thank you. Our sources follow.",
+    "misunderstanding": "The quote shows a political position, not evidence of AI safety.",
+    "sources": [
+      {
+        "reference_id": "trump",
+        "title": "Remarks on signing executive orders to promote United States ranching and an exchange with reporters",
+        "url": "https://www.govinfo.gov/content/pkg/DCPD-202600575/pdf/DCPD-202600575.pdf",
+        "date": "2026",
+        "apa": "Trump, D. J. (2026, September 4). Remarks on signing executive orders to promote United States ranching and an exchange with reporters (DCPD-202600575) [Transcript]. Daily Compilation of Presidential Documents. https://www.govinfo.gov/content/pkg/DCPD-202600575/pdf/DCPD-202600575.pdf",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "nasa",
+        "title": "Black Marble 2016",
+        "url": "https://svs.gsfc.nasa.gov/30876/",
+        "date": "2017",
+        "apa": "NASA’s Goddard Space Flight Center. (2017, April 25). Black Marble 2016 [Satellite image]. NASA Scientific Visualization Studio. https://svs.gsfc.nasa.gov/30876/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "dilemma",
+        "title": "The Stanford encyclopedia of philosophy",
+        "url": "https://plato.stanford.edu/archives/spr2026/entries/prisoner-dilemma/",
+        "date": "2026",
+        "apa": "Kuhn, S. (2026). Prisoner’s dilemma. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Spring 2026 ed.). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/spr2026/entries/prisoner-dilemma/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "nist",
+        "title": "Artificial intelligence risk management framework (AI RMF 1.0)",
+        "url": "https://doi.org/10.6028/NIST.AI.100-1",
+        "date": "2023",
+        "apa": "Tabassi, E. (2023). Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.AI.100-1",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ],
+    "background": "#172522",
+    "elements": [
+      {
+        "type": "text",
+        "x": 86,
+        "y": 55,
+        "w": 1350,
+        "h": 34.8,
+        "text": "13 / THE QUESTION WE LEAVE WITH",
+        "size": 19,
+        "color": "#D6EDAA",
+        "bold": true,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 125,
+        "w": 1428,
+        "h": 170,
+        "text": "Who is actually\nin control?",
+        "size": 66,
+        "color": "#F4F3EE",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "line",
+        "x": 86,
+        "y": 811,
+        "x2": 1514,
+        "y2": 811,
+        "color": "#306B57",
+        "width": 2,
+        "dash": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 838,
+        "w": 1200,
+        "h": 31.2,
+        "text": "ETHICS & SUSTAINABILITY  /  MEANINGFUL HUMAN CONTROL",
+        "size": 16,
+        "color": "#D6EDAA",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 1430,
+        "y": 832,
+        "w": 100,
+        "h": 34.8,
+        "text": "13 / 13",
+        "size": 19,
+        "color": "#D6EDAA",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 390,
+        "w": 1380,
+        "h": 150,
+        "text": "If AI systems become more capable than\nthe institutions governing them…",
+        "size": 40,
+        "color": "#F4F3EE",
+        "bold": false,
+        "offline": false
+      },
+      {
+        "type": "text",
+        "x": 86,
+        "y": 680,
+        "w": 1400,
+        "h": 46.8,
+        "text": "Uncertainty does not remove responsibility.",
+        "size": 29,
+        "color": "#D6EDAA",
+        "bold": false,
+        "offline": false
+      }
+    ],
+    "delivery": "Read the quote and connect it to the pressure to race. Answer the opening question through technical safeguards, human oversight and shared rules. Explain AI 2027 as the competition example within this wider problem. Finish with the audience question."
+  },
+  {
+    "title": "References (1/3)",
+    "speaker": 4,
+    "seconds": 0,
+    "purpose": "Reference appendix.",
+    "script": "These are our sources. We can open them if you have a question.",
+    "delivery": "Use this appendix for questions. It is outside the timed talk.",
+    "transition": "",
+    "misunderstanding": "",
+    "sources": [
+      {
+        "reference_id": "deontology",
+        "title": "The Stanford encyclopedia of philosophy",
+        "url": "https://plato.stanford.edu/archives/win2025/entries/ethics-deontological/",
+        "date": "2025",
+        "apa": "Alexander, L., & Moore, M. (2025). Deontological ethics. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Winter 2025 ed.). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/win2025/entries/ethics-deontological/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "anthropic",
+        "title": "Detecting and preventing distillation attacks",
+        "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "date": "2026",
+        "apa": "Anthropic. (2026, February 23). Detecting and preventing distillation attacks. https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "ethics",
+        "title": "The Stanford encyclopedia of philosophy",
+        "url": "https://plato.stanford.edu/archives/sum2026/entries/ethics-virtue/",
+        "date": "2026",
+        "apa": "Hursthouse, R., & Pettigrove, G. (2026). Virtue ethics. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Summer 2026 ed.). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/sum2026/entries/ethics-virtue/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "takeoff",
+        "title": "Takeoff forecast",
+        "url": "https://ai-2027.com/research/takeoff-forecast",
+        "date": "2025",
+        "apa": "Kokotajlo, D., & Lifland, E. (2025, April). Takeoff forecast. AI 2027. https://ai-2027.com/research/takeoff-forecast",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ]
+  },
+  {
+    "title": "References (2/3)",
+    "speaker": 4,
+    "seconds": 0,
+    "purpose": "Reference appendix.",
+    "script": "These are our sources. We can open them if you have a question.",
+    "delivery": "Use this appendix for questions. It is outside the timed talk.",
+    "transition": "",
+    "misunderstanding": "",
+    "sources": [
+      {
+        "reference_id": "ai2027",
+        "title": "AI 2027",
+        "url": "https://ai-2027.com/",
+        "date": "2025",
+        "apa": "Kokotajlo, D., Alexander, S., Larsen, T., Lifland, E., & Dean, R. (2025, April 3). AI 2027. https://ai-2027.com/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "dilemma",
+        "title": "The Stanford encyclopedia of philosophy",
+        "url": "https://plato.stanford.edu/archives/spr2026/entries/prisoner-dilemma/",
+        "date": "2026",
+        "apa": "Kuhn, S. (2026). Prisoner’s dilemma. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Spring 2026 ed.). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/spr2026/entries/prisoner-dilemma/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "nasa",
+        "title": "Black Marble 2016",
+        "url": "https://svs.gsfc.nasa.gov/30876/",
+        "date": "2017",
+        "apa": "NASA’s Goddard Space Flight Center. (2017, April 25). Black Marble 2016 [Satellite image]. NASA Scientific Visualization Studio. https://svs.gsfc.nasa.gov/30876/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "consequences",
+        "title": "The Stanford encyclopedia of philosophy",
+        "url": "https://plato.stanford.edu/archives/fall2023/entries/consequentialism/",
+        "date": "2023",
+        "apa": "Sinnott-Armstrong, W. (2023). Consequentialism. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Fall 2023 ed.). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/fall2023/entries/consequentialism/",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ]
+  },
+  {
+    "title": "References (3/3)",
+    "speaker": 4,
+    "seconds": 0,
+    "purpose": "Reference appendix.",
+    "script": "These are our sources. We can open them if you have a question.",
+    "delivery": "Use this appendix for questions. It is outside the timed talk.",
+    "transition": "",
+    "misunderstanding": "",
+    "sources": [
+      {
+        "reference_id": "nist",
+        "title": "Artificial intelligence risk management framework (AI RMF 1.0)",
+        "url": "https://doi.org/10.6028/NIST.AI.100-1",
+        "date": "2023",
+        "apa": "Tabassi, E. (2023). Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.AI.100-1",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "trump",
+        "title": "Remarks on signing executive orders to promote United States ranching and an exchange with reporters",
+        "url": "https://www.govinfo.gov/content/pkg/DCPD-202600575/pdf/DCPD-202600575.pdf",
+        "date": "2026",
+        "apa": "Trump, D. J. (2026, September 4). Remarks on signing executive orders to promote United States ranching and an exchange with reporters (DCPD-202600575) [Transcript]. Daily Compilation of Presidential Documents. https://www.govinfo.gov/content/pkg/DCPD-202600575/pdf/DCPD-202600575.pdf",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      },
+      {
+        "reference_id": "photo",
+        "title": "[Photograph of server racks]",
+        "url": "https://unsplash.com/photos/M5tzZtFCOfs",
+        "date": "n.d.",
+        "apa": "Vick, T. (n.d.). [Photograph of server racks]. Unsplash. https://unsplash.com/photos/M5tzZtFCOfs",
+        "confidence": "See the spoken explanation; scenarios and teaching examples are not empirical forecasts."
+      }
+    ]
+  }
+]

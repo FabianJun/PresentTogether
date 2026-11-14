@@ -1,0 +1,10 @@
+#presenter-guide{width:min(540px,calc(100vw - 32px));max-height:calc(100vh - 32px);padding:30px;border:1px solid #d8e0ef;border-radius:18px;background:#fff;color:#111e38;box-shadow:0 20px 70px #09132633}
+#presenter-guide::backdrop{background:#09132699}
+#presenter-guide .guide-progress{font-size:12px;letter-spacing:1px;color:#275dff;font-weight:700}
+#presenter-guide h2{font-size:28px;line-height:1.15;margin:18px 0}
+#presenter-guide p{font-size:17px;line-height:1.55;margin:0 0 26px}
+#presenter-guide .guide-actions,#presenter-guide .guide-actions>div{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+#presenter-guide button{font:inherit;font-size:14px;padding:10px 14px;min-height:44px}
+#presenter-guide button:focus-visible{outline:3px solid #275dff;outline-offset:3px}
+#presenter-guide #guide-skip{border-color:transparent;color:#53647d}
+@media(max-width:480px){#presenter-guide{padding:22px}#presenter-guide .guide-actions>div{width:100%;justify-content:flex-end}}

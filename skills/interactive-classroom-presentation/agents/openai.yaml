@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interactive Classroom Presentation"
+  short_description: "Iterate on your teaching material with a coding agent"
+  default_prompt: "Use $interactive-classroom-presentation to help me turn my existing presentation into a clear, tested classroom activity."

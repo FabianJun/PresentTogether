@@ -1,0 +1,193 @@
+{
+  "entries": [
+    {
+      "id": "deontology",
+      "short": "Alexander & Moore, 2025",
+      "lead": "Alexander, L., & Moore, M. (2025). Deontological ethics. In E. N. Zalta & U. Nodelman (Eds.), ",
+      "title": "The Stanford encyclopedia of philosophy",
+      "tail": " (Winter 2025 ed.). Metaphysics Research Lab, Stanford University.",
+      "url": "https://plato.stanford.edu/archives/win2025/entries/ethics-deontological/"
+    },
+    {
+      "id": "anthropic",
+      "short": "Anthropic, 2026",
+      "lead": "Anthropic. (2026, February 23). ",
+      "title": "Detecting and preventing distillation attacks",
+      "tail": ".",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+    },
+    {
+      "id": "ethics",
+      "short": "Hursthouse & Pettigrove, 2026",
+      "lead": "Hursthouse, R., & Pettigrove, G. (2026). Virtue ethics. In E. N. Zalta & U. Nodelman (Eds.), ",
+      "title": "The Stanford encyclopedia of philosophy",
+      "tail": " (Summer 2026 ed.). Metaphysics Research Lab, Stanford University.",
+      "url": "https://plato.stanford.edu/archives/sum2026/entries/ethics-virtue/"
+    },
+    {
+      "id": "takeoff",
+      "short": "Kokotajlo & Lifland, 2025",
+      "lead": "Kokotajlo, D., & Lifland, E. (2025, April). ",
+      "title": "Takeoff forecast",
+      "tail": ". AI 2027.",
+      "url": "https://ai-2027.com/research/takeoff-forecast"
+    },
+    {
+      "id": "ai2027",
+      "short": "Kokotajlo et al., 2025",
+      "lead": "Kokotajlo, D., Alexander, S., Larsen, T., Lifland, E., & Dean, R. (2025, April 3). ",
+      "title": "AI 2027",
+      "tail": ".",
+      "url": "https://ai-2027.com/"
+    },
+    {
+      "id": "dilemma",
+      "short": "Kuhn, 2026",
+      "lead": "Kuhn, S. (2026). Prisoner’s dilemma. In E. N. Zalta & U. Nodelman (Eds.), ",
+      "title": "The Stanford encyclopedia of philosophy",
+      "tail": " (Spring 2026 ed.). Metaphysics Research Lab, Stanford University.",
+      "url": "https://plato.stanford.edu/archives/spr2026/entries/prisoner-dilemma/"
+    },
+    {
+      "id": "nasa",
+      "short": "NASA’s Goddard Space Flight Center, 2017",
+      "lead": "NASA’s Goddard Space Flight Center. (2017, April 25). ",
+      "title": "Black Marble 2016",
+      "tail": " [Satellite image]. NASA Scientific Visualization Studio.",
+      "url": "https://svs.gsfc.nasa.gov/30876/"
+    },
+    {
+      "id": "consequences",
+      "short": "Sinnott-Armstrong, 2023",
+      "lead": "Sinnott-Armstrong, W. (2023). Consequentialism. In E. N. Zalta & U. Nodelman (Eds.), ",
+      "title": "The Stanford encyclopedia of philosophy",
+      "tail": " (Fall 2023 ed.). Metaphysics Research Lab, Stanford University.",
+      "url": "https://plato.stanford.edu/archives/fall2023/entries/consequentialism/"
+    },
+    {
+      "id": "nist",
+      "short": "Tabassi, 2023",
+      "lead": "Tabassi, E. (2023). ",
+      "title": "Artificial intelligence risk management framework (AI RMF 1.0)",
+      "tail": " (NIST AI 100-1). National Institute of Standards and Technology.",
+      "url": "https://doi.org/10.6028/NIST.AI.100-1"
+    },
+    {
+      "id": "trump",
+      "short": "Trump, 2026",
+      "lead": "Trump, D. J. (2026, September 4). ",
+      "title": "Remarks on signing executive orders to promote United States ranching and an exchange with reporters",
+      "tail": " (DCPD-202600575) [Transcript]. Daily Compilation of Presidential Documents.",
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202600575/pdf/DCPD-202600575.pdf"
+    },
+    {
+      "id": "photo",
+      "short": "Vick, n.d.",
+      "lead": "Vick, T. (n.d.). ",
+      "title": "[Photograph of server racks]",
+      "italic": false,
+      "tail": ". Unsplash.",
+      "url": "https://unsplash.com/photos/M5tzZtFCOfs"
+    }
+  ],
+  "slides": [
+    {
+      "ids": [
+        "ai2027",
+        "nist",
+        "photo"
+      ]
+    },
+    {
+      "ids": [
+        "ai2027"
+      ]
+    },
+    {
+      "ids": [
+        "ai2027"
+      ]
+    },
+    {
+      "ids": [
+        "nist"
+      ],
+      "prefix": "Adapted from "
+    },
+    {
+      "ids": [
+        "ai2027"
+      ],
+      "prefix": "Scenario outcomes: "
+    },
+    {
+      "ids": [
+        "takeoff"
+      ],
+      "prefix": "Illustrative mechanism: "
+    },
+    {
+      "ids": [
+        "anthropic",
+        "photo"
+      ]
+    },
+    {
+      "ids": [
+        "deontology",
+        "ethics",
+        "consequences"
+      ]
+    },
+    {
+      "ids": [
+        "dilemma"
+      ],
+      "prefix": "Adapted from ",
+      "suffix": " · Payoffs: teaching assumptions"
+    },
+    {
+      "ids": [
+        "ai2027"
+      ],
+      "prefix": "Scenario inspiration: "
+    },
+    {
+      "ids": [
+        "dilemma",
+        "nist"
+      ],
+      "prefix": "Our proposed response: "
+    },
+    {
+      "ids": [
+        "trump",
+        "nasa",
+        "dilemma",
+        "nist"
+      ],
+      "locators": {
+        "trump": "p. 22"
+      }
+    }
+  ],
+  "pages": [
+    [
+      "deontology",
+      "anthropic",
+      "ethics",
+      "takeoff"
+    ],
+    [
+      "ai2027",
+      "dilemma",
+      "nasa",
+      "consequences"
+    ],
+    [
+      "nist",
+      "trump",
+      "photo"
+    ]
+  ]
+}
