@@ -1,126 +1,56 @@
-# From your presentation to an interactive activity
+# What to expect, step by step
 
-**Start by giving your agent the [repository link and starter prompt](../README.md#start-here). It reads the guide, checks its tools and leads you through the process. You do not write code or deploy anything.**
+**Give your AI agent the [repository link and starter prompt](../README.md#start-here). It reads this guide, checks its own tools and leads you from there. You never need to write code or deploy anything.**
 
-You bring the material and teaching judgement. The agent helps you explore, build and improve a way for people to take part. Start with a coding agent such as Codex, Claude Code or GitHub Copilot in VS Code. Claude Cowork and other tools may also fit when they provide the required access. [Tool guidance](../skills/interactive-classroom-presentation/references/tool-access.md)
+This page is for teachers and students who want to know what will happen. You do not need to read it before you start.
 
-The process is: **check permitted use -> provide -> analyse -> explore together -> plan access and costs -> build -> test -> get feedback -> iterate -> rehearse and use**.
+## How the agent works with you
 
-This guide and the [agent skill](../skills/interactive-classroom-presentation/SKILL.md) are PresentTogether's core. Singularity is one example you can inspect for inspiration. Your activity is developed around your topic, audience, time and way of teaching.
+The agent is a coach who also builds. It does the technical work. On teaching, presenting and storytelling, it explains and suggests; you decide.
 
-## 0. Check permitted use before sharing files
+- **It names its methods.** When it suggests a change, it tells you what the method is called, why it works, how to use it and when it does not fit. The methods come from research on learning and presenting, summarised in [the method cards](../skills/interactive-classroom-presentation/references/methods.md).
+- **It asks for your view first, but rarely.** At four moments it asks what you think before giving its own view: your core message, where the audience may struggle, your first activity idea and your verdict on the first version. Otherwise it gets on with the work.
+- **You control the depth.** Say "shorter" for less explanation, "explain more" for more, or "just do it" when you want results without the lesson.
+- **Your voice stays yours.** It suggests changes as before/after; you choose. If your course requires independent work, that part stays yours.
 
-The agent first checks an [abstracted institution rules guide](../skills/interactive-classroom-presentation/references/academic-use.md). It needs to know whether the work is assessed or submitted to the institution, and whether the material is your own and shareable. If that is already clear, it should proceed without asking again.
+## The route
 
-This workflow is for ungraded activities using your own shareable content, outside graded submissions. Do not provide institutional teaching materials to external agents. An ungraded submission can still be subject to institutional rules. If the intended use is unclear, describe it first and resolve the question before attaching your presentation. [Full academic-use note](ACADEMIC_USE.md)
+1. **Check permitted use.** Before it reads any teaching file, the agent checks that you may use the material with it. It asks at most three short questions, and none if you have already said enough. Its first reply never asks more than three questions in total. [Why this matters](ACADEMIC_USE.md)
+2. **Understand your talk.** It asks for your core message in one sentence (or repeats it back if you already gave it). Then it reads your material, asks where you think the audience will struggle, and sketches the story, the places where attention may drop and the idea the audience is most likely to misunderstand.
+3. **Improve the talk, if you want.** It offers three to five changes with the biggest effect, such as a sharper opening, one idea per slide or a clearer example, each with the reason behind it.
+4. **Find an activity.** It asks for your idea first. Then it shows three clearly different options: a safe one, an unusual one and one without technology. For each, it describes one minute from a participant's point of view and recommends one.
+5. **Plan the setup and cost.** It picks the simplest setup that works, from paper to a shared live link, and tells you the cost before anything is paid. [Hosting and costs](HOSTING.md)
+6. **Build one complete interaction.** You get a working preview of one step, with a short explanation of the controls and speaker notes that link the activity back to your talk.
+7. **Try it and improve it.** You try it and say what you noticed. You do not need to suggest a technical fix: "people won't know what to do" is enough. It finds the cause, makes a small change and tests again.
+8. **Rehearse and hand over.** It checks timing, the real link on real devices and an offline fallback such as a PDF or paper version. You get the link or files, short instructions and notes.
+9. **Reflect.** Two or three short questions, one at a time, then a personal method card with the methods you used, in your own words, ready for your next talk. If you would rather skip the questions, the agent drafts the card and you edit it.
 
-## 1. Provide your presentation
+The agent tells you which step you are in and skips steps you do not need. It keeps a short activity brief in your project folder, so you or another agent can pick up where you left off.
 
-After the initial use check, the agent asks for your permitted presentation. Tell it who will take part, how long you have and what you hope people will understand, if known. An activity idea is optional. "Let's brainstorm" is a useful starting point too.
+## What you might be asked to do
 
-The [starter prompt](../README.md#start-here) is the single entry point. You do not need to install a skill manually: the agent can read `SKILL.md` and its references. If it cannot open GitHub but permitted local-file access works, use **Code > Download ZIP** and give it the extracted guide. If both routes are unavailable, use a capable, permitted agent. Do not spend time trying to upload files to a tool that cannot accept or read them.
+- Sign in to an account through the provider's own page. Never paste passwords or secret keys into the chat.
+- Agree to a specific cost before anything is paid for.
+- Try the activity yourself and, if possible, with someone new to the topic.
 
-The agent handles programming, tests and deployment. You may need to sign in, grant access or approve a specific cost. It should not leave you with terminal commands or cloud-administration tasks to work out yourself.
+You should never be left with terminal commands, cloud settings or code to fix. If the agent cannot do something with its current tools, it tells you plainly and suggests the simplest way forward. [Which tools can do this?](../skills/interactive-classroom-presentation/references/tools-and-models.md)
 
-**The university Copilot setup reported for this project cannot connect to GitHub or accept file uploads.** It is not our recommended tool for the build. It may still help with permitted general brainstorming, but that is separate from reading a presentation, building an app and testing it. Installing its desktop app does not establish that these missing features will become available. [Access check](../skills/interactive-classroom-presentation/references/tool-access.md#check-access-before-you-start)
+## Feedback that helps
 
-Once a capable tool is available, choose **Sol + High reasoning effort** where offered, or a suitable alternative such as Opus. The agent checks existing access and costs before recommending a purchase. A basic coding-agent subscription around EUR 20 a month may cover a small adaptation. A different provider must still be permitted for your material and use. [Models, alternatives and costs](MODELS.md)
+Describe what you experienced; the agent works out the cause.
 
-## 2. Analyse what the audience needs to understand
-
-The agent should read your presentation before deciding what to build. Expect a short explanation of:
-
-- The main idea and the parts that may be difficult for this audience.
-- What someone should be able to explain or do afterwards.
-- Where participation could help, linked to a particular slide or concept.
-
-For example, a presentation about compound interest might benefit from a prediction before revealing a curve. A presentation about similar ethical concepts might benefit from comparing cases. Correct the agent's interpretation before it designs the activity.
-
-It should preserve sources and distinguish evidence, examples and modelling assumptions. Your original presentation remains the reference, with proposed content changes made visible for review.
-
-## 3. Explore activities together
-
-Expect a few meaningfully different ideas and a recommendation. Each idea should explain what a participant actually does, what they see afterwards and how you will connect that experience to the topic.
-
-| Possible activity | What a person does | What you can discuss afterwards |
-|---|---|---|
-| Predict and reveal | Predict an outcome, then see the evidence. | Which assumption led to the prediction? |
-| Sort or rank | Put examples into categories or options in order. | Where did people disagree, and why? |
-| Mark a visual | Identify a pattern, error or piece of evidence on a diagram. | What supports that interpretation? |
-| Explore a simulation | Change an input and observe the result. | Which relationship changed, and what does the model leave out? |
-| Work through a case | Make a decision, receive new information and reconsider. | What would justify a different choice? |
-| Play a game | Act under rules, possibly with a role or limited resources. | How did the rules and incentives shape the choices? |
-
-The format should fit your goal, time and audience. It may be one short interruption, several activities within the slides, or a separate exercise. Teams, competition and scores are added only if they help. Every participant needs a clear contribution; a fictional role is useful for some activities, but a clear task is enough for others.
-
-Agree on a short activity brief: the learning goal, where it fits, what each person does, what they see afterwards, what you ask and how long it should take. The agent keeps this brief up to date as the design develops.
-
-## 4. Plan the setup, access and costs
-
-The agent should recommend the technical approach. You should not need to choose a framework, database or server configuration. It explains whether the activity needs individual devices, shared live results, saved responses or internet access.
-
-For online participation, the result must have a link that works from outside the presenter's computer. The agent can choose managed hosting, static hosting for a suitable independent activity, or a small server for shared state. A hyperscaler account is optional. The local preview is not the finished online activity.
-
-The agent checks that intended participants can join with the stated access requirements, ideally without accounts. If the activity combines their responses, it tests shared results across separate clients. It also explains any expiry, sleeping service, participant limit or usage charge that could interrupt the event.
-
-If a hosting account is needed, the agent guides you through the provider's normal login and handles the technical setup. Do not paste passwords or secret keys into chat. It can build locally while cloud access is being prepared. It creates paid resources only within your authorisation for the specific setup and cost.
-
-Ask for a plain explanation:
-
-> What do I need? What will it cost for the event and if I leave it running for a month? Which costs are covered by an allowance or credit? How will I save, restore and stop it?
-
-Before deployment, the agent should show you the working version and identify the resources it will use. [Hosting, credits and the example's daily cost](HOSTING.md)
-
-## 5. Build one complete interaction
-
-Try the smallest version that connects a participant's action to useful feedback: one prediction and reveal, one sorting exercise, one case decision, or one round if you chose a game.
-
-The agent provides a preview link or file, shows you how to operate it, and identifies anything unfinished. Keep the new activity in its own project folder so the example remains available as a reference.
-
-Check three things immediately: **What am I doing? Why does it matter? What happened after I acted?** If the activity uses roles, their perspectives should be visible beside the choices. Other formats need equally clear task instructions.
-
-## 6. Test the activity and the teaching flow
-
-Tests should fit the design. A simulation needs checked calculations and assumptions. A sorting activity needs sensible categories and explanations for ambiguous examples. A shared activity needs to handle incomplete responses, reconnection and moving on when someone has not finished.
-
-The agent should show what passed, explain failures plainly and identify what still needs a person to try it. Synthetic participants belong in separate test sessions, never in real audience results.
-
-Try the teacher and participant experiences yourself. If possible, ask someone unfamiliar with the topic to try one step. Check what they understood, as well as whether they could use the controls.
-
-## 7. Give feedback and iterate
-
-Your feedback can describe the experience. You do not have to prescribe a technical fix. The agent should diagnose the problem, recommend an improvement and explain how it helps.
-
-| Your observation | What the agent should investigate |
+| You notice | The agent looks at |
 |---|---|
-| "I do not know what to do." | The task instruction, visible choices and first action. |
-| "The result feels arbitrary." | The rule, evidence or calculation connecting action to result. |
-| "People are tapping, but not learning." | Whether the action requires relevant thinking and whether the discussion uses it. |
-| "I cannot lead this comfortably." | Teacher controls, notes, transitions and the amount to say. |
-| "It is too complicated." | Which parts add learning value and which can be removed. |
+| "I don't know what to do." | The instruction, the visible choices and the first action. |
+| "The result feels random." | The rule or calculation that links an action to its result. |
+| "People are tapping but not learning." | Whether the action needs real thinking, and whether the discussion uses it. |
+| "I can't lead this comfortably." | Presenter controls, notes and transitions. |
+| "It's too complicated." | Which parts add learning value and which can go. |
 
-Repeat **try -> explain the problem -> improve -> retest**. Keep a working version and change one important thing at a time. If the learning goal changes, revisit the activity choice.
+## After the event
 
-The agent should explain its reasoning so you can judge future activities more confidently. It should keep the presentation, participant instructions and speaker notes in agreement after each revision.
+Save the project to your own GitHub account, or another code host, if you want to reuse it; the agent can do this for you. Participant data and passwords are kept out of it. Closing the browser does not stop hosting, so ask the agent for a reminder to stop it. [Saving, reusing and stopping](HOSTING.md)
 
-## 8. Rehearse, use and save
+## The included example
 
-Expand the tested small version into the agreed full flow. Rehearse at a realistic pace, including transitions, thinking time, participant actions and discussion. Shorten the activity or notes if it does not fit.
-
-Expect a clear handover:
-
-- Working files or a link, with an explanation of which view the audience sees.
-- A short, skippable walkthrough of unfamiliar teacher controls, available again later.
-- Current speaker notes for introducing the activity, responding to what happened and returning to the presentation.
-- Suitable offline material, such as a PDF, PowerPoint or paper version.
-- A test summary, limitations, operating instructions and a private backup where needed.
-
-If hosting is needed, the agent deploys the reviewed version within your authorisation and checks the real link with you. It verifies the external link and shared state where needed. Try the actual audience devices and network before the event; a link working only on the presenter's laptop is not enough.
-
-Save the code and teaching material to your own GitHub account if you want to reuse them. Store participant records and credentials separately. Set an end-of-event reminder to stop hosting; closing the browser does not stop a server. [Saving, switching activities and shutdown](HOSTING.md)
-
-## Use the example when it helps
-
-The [Singularity example](SINGULARITY_EXAMPLE.md) shows one way to connect roles, individual choices, consequences and a debrief. Its tests verify that particular implementation. A new activity needs its own design review, tests and rehearsal.
-
-Borrow a useful pattern, adapt it to your own topic and audience, and check the resulting learning experience together.
+The [Singularity seminar](SINGULARITY_EXAMPLE.md) is one worked example: a game with roles, choices and a debrief. Borrow its patterns when they help. Its teams, rounds and scores were choices for that seminar, not a template for yours.

@@ -1,6 +1,6 @@
 # Singularity example: code and checks
 
-These implementation commands are for the agent. Teachers can start with the [repository prompt](../README.md#start-here) and [beginner's guide](START_HERE.md) without running them. The general workflow lives in `README.md`, `docs/START_HERE.md` and `skills/interactive-classroom-presentation/`; the app described below is one worked example. New activities should have their own project and appropriate checks.
+These implementation commands are for the agent. Teachers and students can start with the [repository prompt](../README.md#start-here) and [beginner's guide](START_HERE.md) without running them. The general workflow lives in `README.md`, `docs/START_HERE.md` and `skills/interactive-classroom-presentation/`; the app described below is one worked example. New activities should have their own project and appropriate checks.
 
 Use Node.js 24 or later. The only runtime npm dependency is `qrcode-generator`. SQLite is provided by Node. The app does not call an AI service.
 
@@ -16,7 +16,7 @@ The preview listens on `127.0.0.1:8787` with an in-memory database. `npm start` 
 
 | Path | Purpose |
 |---|---|
-| `skills/interactive-classroom-presentation/` | Reusable co-design method, initial academic-use check, activity selection and rehearsal guidance. |
+| `skills/interactive-classroom-presentation/` | The reusable agent skill: coaching approach, method cards, permitted-use check, activity design, rehearsal and templates. |
 | `docs/START_HERE.md`, `docs/HOSTING.md` | General guidance for the user and agent, including costs and reuse. |
 | `deck.json` | Speaker assignments, spoken text, actions, timing, sources and game facilitation cues. |
 | `web/visuals.js`, `web/seminar-art.js` | Browser slide artwork; layout is code, not an automatic PPTX import. |

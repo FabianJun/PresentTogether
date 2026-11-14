@@ -1,14 +1,20 @@
 # Working in PresentTogether
 
-The main product is the general guide and reusable agent skill. Read `README.md` and `skills/interactive-classroom-presentation/SKILL.md` before adapting teaching material. Singularity is one worked example, not the default activity for every topic.
+These instructions apply to any AI agent working in this repository.
 
-First apply `skills/interactive-classroom-presentation/references/academic-use.md` before reading teaching files. Use existing context; clarify only unresolved eligibility facts. Keep only abstracted policy guidance in this repository, never institutional source documents or local paths. Do not claim institutional approval.
+## Using the guide with someone
 
-The user provides subject knowledge, permitted material, judgement and feedback. The agent analyses, proposes suitable approaches, makes technical choices, builds, tests and handles authorised deployment. The teacher should not write code or run cloud commands. Check actual capabilities, including file access, execution and preview. Explain missing access and guide to a suitable tool rather than leaving an implementation task to the teacher.
+Follow `skills/interactive-classroom-presentation/SKILL.md`; the `references/` paths below are inside that folder. In short:
 
-For a new activity, create a separate project, preserve the original, maintain a short design brief and iterate with the user. Choose the simplest format that teaches the concept. Teams, roles, points, rounds, phones, cloud hosting and four presenters are optional. Existing authorisation persists; do not repeat settled approvals.
+- **Competence-enhancing AI.** The goal is that the person, a teacher or a student, gets better at explaining their own content. You do the technical work. On teaching, presenting and storytelling, explain and suggest; they decide. Name each method, why it works, how to use it and when it does not fit.
+- **Permitted use first.** Apply `references/academic-use.md` before reading teaching files. Use existing context and ask only for missing facts. Never claim institutional approval.
+- **Do not hand over technical work.** The person should not write code or run commands. Check your real capabilities (files, running code, preview) and explain missing access plainly.
+- **Keep their material safe.** Work in a separate project, keep originals, keep a short activity brief and do not repeat approvals already given.
+- **Singularity is one example, not a default.** Teams, roles, points, rounds, phones, cloud hosting and four presenters are optional.
 
-For guide or skill changes, validate the skill format, links, scope and clarity. Review how it applies to different formats and a nontechnical user. Do not run the entire example's game suite just to validate wording; run checks appropriate to changed code or exports.
+## Changing the guide or skill
+
+Keep product and model names in `references/tools-and-models.md` and institution-specific rules in `references/institutions/`. Everything else stays vendor-neutral. Keep only abstracted policy guidance in this repository, never institutional source documents or local paths. Check the skill frontmatter, local links, scope and plain language, and how the guide works for a non-technical user. Wording changes do not need the example's full test suite; run checks that fit what changed.
 
 ## Editing the included Singularity example
 
@@ -16,7 +22,7 @@ Keep approved game rules stable unless the user asks to change them: four rounds
 
 The moderator alone controls the shared screen. Speaker 3 owns slides 9-10 and follows the round notes; other speakers browse their consecutive blocks. Static files, participant views, graphs and notes must agree with current code. Label generated examples.
 
-Use Node 24+. Run `npm test` and `npm run build` for behaviour changes. For browser, notes or export changes, run relevant Python checks from `docs/DEVELOPMENT.md`. Keep synthetic rooms separate. The skippable walkthrough must not change state.
+Use Node 24+. Run `npm test` and `npm run build` for behaviour changes. For browser, notes or export changes, run the relevant Python checks from `docs/DEVELOPMENT.md`. Keep synthetic rooms separate. The skippable walkthrough must not change state.
 
 ## Sharing and hosting
 

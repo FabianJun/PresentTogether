@@ -2,6 +2,22 @@
 
 Public package checked on 14 November 2026. Application checks use synthetic participants, not real classroom responses.
 
+## Coaching and vendor-neutral revision
+
+The guide and skill were rewritten around competence-enhancing coaching: the agent helps a teacher or student explain their own content better, names each method with its evidence, asks for their view first at four moments, and ends with a personal method card. Product and model names moved to `references/tools-and-models.md`; institution rules moved to `references/institutions/`. The Singularity example's code, game rules, slides, exports and tests are unchanged.
+
+| Check | Result |
+|---|---|
+| `scripts/check_public_package.py` | Pass: local links, private-path patterns, binary metadata and exports. |
+| Local links and heading anchors in all Markdown files | Pass. |
+| Skill frontmatter against the Agent Skills specification | Pass: name matches the folder, description under 1,024 characters, body under 500 lines. |
+| Product names outside the allowed files | Only the hosting example, font notice and a pointer to the institution profile. |
+| Method-card sources | Each cited study was looked up on 14 November 2026; cards without direct evidence are labelled *Practice*. |
+| Independent review of the whole change | Findings on the use boundary, question count, route consistency and overstated evidence were fixed, then reviewed again. |
+| Cold start with two different coding agents, given read-only tools and a fictitious overloaded talk | First runs: both gave a tool check, a short permitted-use check and the route, but both opened the slides before the check finished, and one did not ask for the core message. After tightening the first reply, a re-run asked for the core message but still opened the slides early and called graded use "fine". After a further fix, the final run left the slides closed, stated the boundary correctly and asked for the core message. It still reported being able to run code, which its read-only test setup did not allow. Instructions alone may not prevent agents from overstating their tools, so people should check these claims. |
+
+These are instruction checks with a small number of runs. They do not prove that every agent follows the skill, and the project has not been built end to end in every named tool. The Mermaid diagram in the README was not rendered locally.
+
 ## University Copilot correction
 
 The maintainer reports that the university Copilot setup cannot connect to GitHub or accept file uploads. The earlier recommendation to start with that tool has been withdrawn from the starter guide, model guidance and skill. This is user-reported evidence; the university configuration was not independently inspected. General product documentation did not establish that this account could complete the workflow.

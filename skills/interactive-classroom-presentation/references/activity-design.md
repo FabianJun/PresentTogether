@@ -1,42 +1,114 @@
-# Choose an activity around the learning goal
+# Find an activity that teaches
 
-Begin with a specific idea in the user's presentation. Identify what listeners may misunderstand and what doing something could help them notice. An activity may take one minute within a talk, appear at several points or become a separate exercise.
+Start from one idea in the talk that the audience may misunderstand. Then ask: what could they *do* that would make them notice it? An activity can take one minute inside the talk, appear at several points or become a separate exercise.
 
-Offer two or three suitable options when the brief is open. Describe a concrete minute from each: what a person sees, what they do, what happens next and what the presenter can discuss. Recommend one with a plain reason. Do not turn this table into a menu the user must navigate alone.
+## 1. Their idea first
 
-| Learning need | Possible action | Useful feedback | Design risk to resolve |
-|---|---|---|---|
-| Notice a misconception | Predict an outcome, then reveal evidence | Compare the prediction with the evidence | A popular answer is not proof. Explain why the evidence supports the result. |
-| Distinguish similar concepts | Sort examples or rank alternatives | Show agreements and contested cases | Some cases may have several defensible answers. Do not mark judgement as objectively wrong. |
-| Read evidence closely | Mark a pattern, error or uncertainty on a visual | Reveal annotations and discuss what supports them | Make coordinates, labels, touch input and a keyboard alternative usable. |
-| Understand cause and effect | Change a variable in a small simulation | Show what changed and why | Label assumptions and units. Avoid presenting model output as a real forecast. |
-| Apply an idea | Choose a path through a case, then receive new information | Compare consequences and reconsider | Branches need plausible consequences, not a hidden moral answer key. |
-| Understand conflicting interests | Allocate scarce resources or take a role in a game | Show who benefits, who pays and what remains unresolved | Explain any score and incentive. Competition and roles must serve the lesson. |
-| Evaluate arguments | Choose evidence, justify a position and revisit it | Compare reasons before and after discussion | Do not equate opinion with fact or force personal disclosure. |
+Ask the person for their first idea, even a rough one. "No idea yet" is a fine answer. Build on what they say; it is their talk, and their idea often contains the right instinct.
 
-Formats can be combined when the extra step adds learning value. A poll can open a discussion; an annotation can lead into a case. Do not add a score, team, fictional role, leaderboard, phone or cloud service just because the example uses one.
+## 2. Think broadly, then narrow down
 
-## Keep a short activity brief
+Before you show anything, generate eight to twelve rough ideas privately, using several of the lenses below. Discard the weak ones. Then show **three clearly different options**:
 
-Maintain these decisions for the user. Reuse existing context and mark unknowns rather than administering a long questionnaire.
+- **A safe option:** reliable, quick to run, low risk.
+- **An unusual option:** surprising, memorable, a little bolder.
+- **An option without technology:** paper, movement, voices or a whiteboard.
 
-- **Permitted use and sources:** what has been checked and any unresolved restriction.
-- **Learning goal:** what participants should understand or be able to explain afterwards.
-- **Placement and time:** which part of the presentation it supports and the total time, including instructions and discussion.
-- **Participant action:** what every person does, what they need to know and an accessible alternative.
-- **Feedback and discussion:** what they see after acting and how the presenter connects it to the lesson.
-- **Mechanics, if needed:** choices, calculations, aggregation and exceptions in plain language.
-- **Operating plan:** required devices, connectivity, presenter controls, storage, budget and fallback.
-- **Acceptance and open questions:** what the preview should demonstrate and what still needs checking.
+For each, describe one minute from a participant's point of view: what they see, what they do, what happens next and what the presenter can discuss. Name the method behind it and say why it fits *this* content. Rate it briefly on learning value, effort, risk and fun. Then recommend one.
 
-For a simple activity this can be a short paragraph. For a simulation it may need a small rule table. Save the agreed brief in the user's project so a later agent can continue without recreating the interview.
+Show the person the lenses you used. They are tools they can use on their own next time.
 
-## Use feedback to improve the design
+### Lenses for ideas
 
-Treat feedback as evidence of a problem, not always as the right implementation. If the user asks for more text because participants do not understand a role, first check whether the goal and action are clear. A shorter prompt, worked example or visible consequence may help more than another paragraph.
+| Lens | Question to ask | Example |
+|---|---|---|
+| The audience teaches | Who could explain this to someone else? | Pairs explain a concept to each other, then the class compares versions. |
+| A deliberate mistake | What error would reveal the idea if people found it? | A chart with one misleading axis; who spots it first? |
+| A bet on a prediction | What outcome would people confidently get wrong? | Everyone commits to a guess before the data appears. |
+| Take a stand | Where do reasonable people disagree? | People stand along a line from "agree" to "disagree", then explain their position. |
+| Scarce resources | What trade-off sits inside the topic? | Groups split a fixed budget, then see the consequences. |
+| Change of perspective | Whose view is missing? | Each person reads the case as a different stakeholder. |
+| Time travel | What happens next year, or what happened before? | Groups write tomorrow's headline for a decision made today. |
+| Break the model | Where does the explanation stop working? | People push a simulation to an extreme and report what fails. |
+| A shared artefact | What could the room build together? | A concept map grows on the board as people add links. |
+| The strongest counter-argument | What would a sharp critic say? | Teams build the best case against the talk's own claim. |
+| Analogue and movement | Could bodies, paper or space carry the idea? | Sorting cards on a table; moving to corners of the room. |
 
-Explain the proposed remedy and its purpose, make a small reviewable change, and test the affected flow. If the format itself does not serve the learning goal, recommend changing it. Keep the original material and a working version available.
+## 3. Activity formats
 
-## Learn from the example selectively
+Each format is a method in its own right. Use these cards to explain your recommendation.
 
-Singularity demonstrates visible participant context, individual choices, shared results, separate presenter and audience views, and explanations tied to actual outcomes. Borrow those patterns when useful. Its two sides, four rounds, competitive points, control target and four-speaker arrangement belong to that seminar. They are not requirements for another topic.
+**Predict, then reveal**
+- *When:* the audience holds a likely misconception.
+- *Why it works:* committing to a prediction makes the gap to the evidence visible and memorable. See *Pretesting and prediction* in [the method cards](methods.md#pretesting-and-prediction).
+- *How:* everyone commits to a guess; then reveal the evidence and explain *why* the result happens.
+- *Typical mistake:* treating the most popular answer as proof, or revealing the answer too early.
+
+**Sort or rank**
+- *When:* similar concepts are easily confused.
+- *Why it works:* sorting forces people to compare the features that tell the concepts apart.
+- *How:* give five to eight examples; people place them; show where the room agrees and disagrees.
+- *Typical mistake:* marking a defensible judgement as simply wrong. Explain ambiguous cases fairly.
+
+**Mark the visual**
+- *When:* the skill is reading evidence closely.
+- *Why it works:* finding the pattern yourself holds attention better than being shown it.
+- *How:* people mark a pattern, error or uncertainty on an image; reveal and discuss the marks.
+- *Typical mistake:* marks that do not line up across screen sizes. Offer a keyboard or verbal alternative.
+
+**Explore a simulation**
+- *When:* the idea is about cause and effect.
+- *Why it works:* changing one input and seeing the result makes a relationship concrete.
+- *How:* one or two inputs, a clear output and a question about what changed and why.
+- *Typical mistake:* presenting model output as a forecast. Label assumptions and units.
+
+**Decide in a case**
+- *When:* people need to apply an idea to a messy situation.
+- *Why it works:* a decision followed by new information invites people to rethink.
+- *How:* choose a path, receive consequences, reconsider; compare paths afterwards.
+- *Typical mistake:* a hidden "right answer" disguised as a dilemma. Consequences should be plausible.
+
+**Play a game with roles or resources**
+- *When:* the topic is about conflicting interests or incentives.
+- *Why it works:* people feel the pressure of the rules before they analyse it.
+- *How:* simple rules, a visible goal and perspective for each person, and results explained in the debrief.
+- *Typical mistake:* scores and competition that distract from the lesson. Every number needs a meaning.
+
+**Weigh the arguments**
+- *When:* the goal is judging evidence and reasons.
+- *Why it works:* stating a position, then revisiting it after discussion, shows how reasons change minds.
+- *How:* choose a position and a reason; discuss; vote again; compare before and after.
+- *Typical mistake:* treating opinion as fact, or pushing people to reveal personal matters.
+
+Formats can be combined when the extra step adds learning value: a prediction can open a case, a sorting task can lead into a discussion.
+
+## 4. Sketches from other subjects
+
+These show the range. They are starting points, not templates.
+
+- **Biology, antibiotic resistance.** Each person is a bacterium with a resistance card. The presenter "applies an antibiotic" by calling out numbers; those without resistance sit down. Survivors "reproduce" by recruiting a neighbour. After three rounds, the room sees resistance spread. *Method: simulation with roles, no technology.*
+- **History, a treaty negotiation.** Groups represent delegations with secret priorities. They have six minutes to agree on three clauses. The presenter then reveals what was actually signed and what followed. *Method: case decision with roles.*
+- **Statistics, misleading charts.** Phones show four charts of the same data; people tap the one they find most convincing, then learn which axis tricks were used. *Method: predict, then reveal; deliberate mistake.*
+- **Literature, an unreliable narrator.** People read a short passage and mark every sentence they trust. The class heat map shows where trust breaks down. *Method: mark the visual.*
+
+## 5. Keep the design honest
+
+- Every person has a clear task and gets useful feedback.
+- A fictional role is optional; a clear task is enough for many activities.
+- Any score, threshold or model variable has a purpose people can understand. Remove unused measures.
+- Where a facilitator fills in missing input, label it as theirs, not the participants'.
+- Do not add a score, team, leaderboard, phone or cloud service just because the included example uses one. Its two sides, four rounds, points, control target and four speakers belong to that seminar.
+
+## 6. Use feedback well
+
+Treat feedback as a symptom, not a prescription. If the person asks for more text because participants do not understand a role, first check whether the goal and action are clear. A shorter prompt, a worked example or a visible consequence often helps more than another paragraph.
+
+| What the person says | What to look at first |
+|---|---|
+| "I don't know what to do." | The task instruction, the visible choices and the first action. |
+| "The result feels random." | The rule, evidence or calculation that links action to result. |
+| "People are tapping but not learning." | Whether the action needs thinking about the topic, and whether the discussion uses it. |
+| "I can't lead this comfortably." | Presenter controls, notes, transitions and how much there is to say. |
+| "It's too complicated." | Which parts add learning value and which can go. |
+
+Explain the cause you suspect, the change you suggest and why it should help. Make one small change, retest and keep a working version. If the format itself does not serve the goal, say so and suggest another.

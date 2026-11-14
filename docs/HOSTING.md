@@ -1,8 +1,8 @@
 # Hosting, costs and reuse
 
-**The agent handles deployment. You do not write code, run server commands or configure cloud services.** You decide the event, audience, budget and how long the activity should stay available. You may need to log in, grant access or approve a concrete cost.
+**The agent handles deployment. You do not write code, run server commands or set up cloud services.** You decide the event, audience, budget and how long the activity should stay available. You may need to log in, grant access or approve a concrete cost.
 
-For online participation, the delivered activity needs a link people can open from outside the presenter's computer. A localhost preview is only a development step. A hyperscaler account is optional: the agent should choose the simplest hosting that supports the agreed activity.
+For online participation, the delivered activity needs a link people can open from outside the presenter's computer. A preview that only runs on your own computer is a test step, not the delivery. You do not need an account with a big cloud provider: the agent should choose the simplest hosting that supports the agreed activity.
 
 ## Choose hosting to fit the interaction
 
@@ -13,15 +13,15 @@ For online participation, the delivered activity needs a link people can open fr
 | A small cloud server | The app needs its own server process or a compatible setup is already available. | Current price, allowance, capacity, HTTPS, backups and resource cleanup. |
 | A temporary preview link | A short trial needs external feedback before final hosting is chosen. | Expiry, access and dependence on the presenter's computer. Do not treat it as a reliable event deployment without checking those limits. |
 
-For example, [Sites in ChatGPT Work](https://learn.chatgpt.com/use-cases/build-and-deploy-internal-apps) offers managed app building and hosting where available. Other services may also fit. The agent checks the user's actual access and the chosen provider's current terms; it should not assume every free plan supports live sessions.
+Some agents include managed app building and hosting; [tools and models](../skills/interactive-classroom-presentation/references/tools-and-models.md) lists examples. Many other services fit too. The agent checks the person's actual access and the chosen provider's current terms; it should not assume every free plan supports live sessions.
 
 Before handover, the agent verifies the public HTTPS address from outside the local preview, the intended participant access and, for shared activities, consistent state across separate clients. Test joining without the presenter's login. Participants should not need the presenter's AI subscription. Try the actual phones and network before the event.
 
-The agent provides the link, access instructions, operating guide, costs and availability period. If it cannot deploy with its current tools, it explains the missing access and guides the user to a capable setup. It does not hand deployment commands to the teacher as unfinished work.
+The agent provides the link, access instructions, operating guide, costs and availability period. If it cannot deploy with its current tools, it explains the missing access and guides the user to a capable setup. It does not hand deployment commands to the person as unfinished work.
 
 ## The Singularity example's server option
 
-The sections below document one setup for the included Node/SQLite app: a dedicated Linux VM with HTTPS. This example has no runtime AI API cost. Other activities may need a different setup; their capacity must be checked independently.
+The sections below record one setup for the included Node/SQLite app: a dedicated Linux VM with HTTPS on Google Cloud. It is an example, not a recommendation of that provider. This example has no runtime AI API cost. Other activities may need a different setup; their capacity must be checked independently.
 
 ## A micro instance and the free allowance
 
@@ -33,7 +33,7 @@ Ask the agent to produce a short table for **your** planned setup:
 
 | Item | The agent should establish |
 |---|---|
-| Coding agent | Whether existing access supports files, execution and testing; then any plan or usage cost and whether extra usage is enabled. [Model guidance](MODELS.md) |
+| Coding agent | Whether existing access supports files, execution and testing; then any plan or usage cost and whether extra usage is enabled. [Tools, models and costs](../skills/interactive-classroom-presentation/references/tools-and-models.md) |
 | VM | Region, type, standard versus Spot, hours, and whether your free allowance is still available. |
 | Disk | Size and disk type; a faster default disk may fall outside the relevant allowance. |
 | Internet access | Address, outbound traffic, and any other network charges. |
@@ -60,7 +60,7 @@ Major cloud providers may offer introductory credits. For example, eligible Goog
 
 ## Deploying the included example
 
-If this VM setup is chosen, use a dedicated VM for the activity. The provided [bootstrap script](../deploy/bootstrap-vm.sh) targets a fresh x86-64 Debian/Ubuntu system, installs Node 24 and Caddy, and serves the app behind HTTPS. It refuses to overwrite an existing installation. It does not create cloud resources, DNS or firewall rules. The following implementation steps are for the agent, not the teacher.
+If this VM setup is chosen, use a dedicated VM for the activity. The provided [bootstrap script](../deploy/bootstrap-vm.sh) targets a fresh x86-64 Debian/Ubuntu system, installs Node 24 and Caddy, and serves the app behind HTTPS. It refuses to overwrite an existing installation. It does not create cloud resources, DNS or firewall rules. The following steps are for the agent, not the presenter.
 
 The agent should:
 
@@ -74,7 +74,7 @@ The application uses a private local SQLite database. Never put its data directo
 
 ## Save to your GitHub account
 
-GitHub can keep the code, presentation, notes and instructions so your agent can restore or change the activity later. Ask it to create your own repository, commit the reviewed project, and verify it can be cloned. A private repository is a sensible default for unpublished teaching material.
+GitHub, or another code host, can keep the code, presentation, notes and instructions so your agent can restore or change the activity later. Ask it to create your own repository, commit the reviewed project, and verify it can be cloned. A private repository is a sensible default for unpublished teaching material.
 
 Public repositories need a separate check for permission to share content, personal details, secrets, exported links and real student responses. Git history matters too: deleting a secret from the latest file does not remove it from earlier commits.
 

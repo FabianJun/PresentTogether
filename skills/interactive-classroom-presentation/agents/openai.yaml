@@ -1,4 +1,4 @@
 interface:
   display_name: "PresentTogether"
-  short_description: "Co-design activities around your own presentation"
-  default_prompt: "Use $interactive-classroom-presentation to check permitted use, then help me explore, build and test an activity around my presentation. Guide me through the choices and handle the technical work."
+  short_description: "Coaching to explain your talk better, plus an activity built for you"
+  default_prompt: "Use $interactive-classroom-presentation to coach me so I get better at explaining my topic, and build an activity around my talk. Check permitted use first, name the methods you suggest and handle all the technical work."
