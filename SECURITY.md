@@ -1,4 +1,6 @@
-# Security and classroom data
+# Singularity example: security and classroom data
+
+These details describe the included application. A different activity needs its own access and data review; reading the general skill does not add these protections to newly built software.
 
 This is a small classroom application, not a verified student identity or high-stakes voting system.
 

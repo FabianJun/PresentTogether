@@ -1,4 +1,4 @@
 interface:
-  display_name: "Interactive Classroom Presentation"
-  short_description: "Iterate on your teaching material with a coding agent"
-  default_prompt: "Use $interactive-classroom-presentation to help me turn my existing presentation into a clear, tested classroom activity."
+  display_name: "PresentTogether"
+  short_description: "Co-design activities around your own presentation"
+  default_prompt: "Use $interactive-classroom-presentation to check permitted use, then help me explore, build and test an activity around my presentation. Guide me through the choices and handle the technical work."

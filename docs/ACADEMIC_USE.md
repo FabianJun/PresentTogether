@@ -2,6 +2,8 @@
 
 **Use this workflow only for presentations that are not graded, with your own material that you are allowed to share. Do not upload or process institutional teaching materials using these external coding agents.**
 
+The agent applies [the abstracted rules check](../skills/interactive-classroom-presentation/references/academic-use.md) **before reading teaching files**. It checks the intended use, source of the material and applicable tool restrictions. It uses existing context and asks only when a necessary fact is missing. The check guides this project's use boundary; it does not certify compliance. Original institutional documents and local paths are not included in the repository.
+
 
 This repository shares a technical example and a way to iterate on an independent learning activity. It is not a way around assessment rules. Its provider-neutral model recommendations do **not** make those providers approved tools for graded submissions.
 

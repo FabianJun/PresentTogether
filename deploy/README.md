@@ -1,4 +1,6 @@
-# Deployment templates for your agent
+# Singularity deployment templates for your agent
+
+These scripts are one hosting option for the example. The agent performs deployment; the teacher does not run these commands. A different activity may use managed or static hosting instead. [General hosting choices](../docs/HOSTING.md)
 
 The scripts target a dedicated fresh x86-64 Debian/Ubuntu VM. They do not create cloud resources, configure DNS or change cloud firewall rules. Review the [hosting estimate](../docs/HOSTING.md) and obtain the user's specific deployment approval first. No cloud resources were created to publish this repository.
 

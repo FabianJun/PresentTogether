@@ -1,4 +1,6 @@
-# Run a session
+# Run the Singularity example
+
+This guide explains the included game's controls. For an activity around your own presentation, start with [the general workflow](START_HERE.md); its format and controls may differ. Your agent prepares the working installation and gives you the address.
 
 **Use the moderator console on your laptop. Show only the projection to the class.**
 

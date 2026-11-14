@@ -1,8 +1,27 @@
-# Hosting, costs and switching presentations
+# Hosting, costs and reuse
 
-**Ask your agent to manage the technical setup and explain the plan before spending anything.** You decide the event, audience, budget and how long the site should stay online.
+**The agent handles deployment. You do not write code, run server commands or configure cloud services.** You decide the event, audience, budget and how long the activity should stay available. You may need to log in, grant access or approve a concrete cost.
 
-The agent should first try the app locally, then recommend a public setup. For this small Node/SQLite application, one dedicated Linux VM with HTTPS is a reasonable starting point. It has no runtime AI API cost. Capacity still needs to be checked for the intended class size and network.
+For online participation, the delivered activity needs a link people can open from outside the presenter's computer. A localhost preview is only a development step. A hyperscaler account is optional: the agent should choose the simplest hosting that supports the agreed activity.
+
+## Choose hosting to fit the interaction
+
+| Option | Suitable when | What the agent must check |
+|---|---|---|
+| Static hosting | People explore an independent visual, case or activity that runs in their own browser. | External access, mobile behaviour and whether progress needs saving. Static files alone do not collect shared live responses. |
+| Managed app hosting | The activity needs shared responses or saved state, and a service can run it. | Supported runtime, storage, access, session lifetime, idle behaviour, usage limits and cost. |
+| A small cloud server | The app needs its own server process or a compatible setup is already available. | Current price, allowance, capacity, HTTPS, backups and resource cleanup. |
+| A temporary preview link | A short trial needs external feedback before final hosting is chosen. | Expiry, access and dependence on the presenter's computer. Do not treat it as a reliable event deployment without checking those limits. |
+
+For example, [Sites in ChatGPT Work](https://learn.chatgpt.com/use-cases/build-and-deploy-internal-apps) offers managed app building and hosting where available. Other services may also fit. The agent checks the user's actual access and the chosen provider's current terms; it should not assume every free plan supports live sessions.
+
+Before handover, the agent verifies the public HTTPS address from outside the local preview, the intended participant access and, for shared activities, consistent state across separate clients. Test joining without the presenter's login. Participants should not need the presenter's AI subscription. Try the actual phones and network before the event.
+
+The agent provides the link, access instructions, operating guide, costs and availability period. If it cannot deploy with its current tools, it explains the missing access and guides the user to a capable setup. It does not hand deployment commands to the teacher as unfinished work.
+
+## The Singularity example's server option
+
+The sections below document one setup for the included Node/SQLite app: a dedicated Linux VM with HTTPS. This example has no runtime AI API cost. Other activities may need a different setup; their capacity must be checked independently.
 
 ## A micro instance and the free allowance
 
@@ -24,7 +43,7 @@ Ask the agent to produce a short table for **your** planned setup:
 
 Create a billing alert. An alert is a warning, not a hard spending cap. Do not create a load balancer, managed database or extra VM unless there is a concrete need and you have approved the cost.
 
-## What this presentation's server cost
+## What the Singularity server cost
 
 The original deployment used a standard e2-micro in Iowa, a 10 GB standard persistent disk and one public IPv4 address. The configuration was recorded before the server was removed. At the published USD list rates, the estimate is:
 
@@ -39,9 +58,9 @@ This is an estimate, not a retrieved invoice. It excludes tax, outbound traffic,
 
 Major cloud providers may offer introductory credits. For example, eligible Google Cloud newcomers currently receive **US$300 valid for 90 days**. Covered usage can be paid from that credit, leaving **US$0 payable for this hosting** while sufficient valid credit remains. This does not pay for an unrelated coding-agent subscription. Check eligibility, exclusions and expiry rather than assuming every account has credit. [Google Cloud trial terms](https://docs.cloud.google.com/free/docs/free-cloud-features)
 
-## What the agent should deploy
+## Deploying the included example
 
-Use a dedicated VM for the activity. The provided [bootstrap script](../deploy/bootstrap-vm.sh) targets a fresh x86-64 Debian/Ubuntu system, installs Node 24 and Caddy, and serves the app behind HTTPS. It refuses to overwrite an existing installation. It does not create cloud resources, DNS or firewall rules.
+If this VM setup is chosen, use a dedicated VM for the activity. The provided [bootstrap script](../deploy/bootstrap-vm.sh) targets a fresh x86-64 Debian/Ubuntu system, installs Node 24 and Caddy, and serves the app behind HTTPS. It refuses to overwrite an existing installation. It does not create cloud resources, DNS or firewall rules. The following implementation steps are for the agent, not the teacher.
 
 The agent should:
 
@@ -59,11 +78,11 @@ GitHub can keep the code, presentation, notes and instructions so your agent can
 
 Public repositories need a separate check for permission to share content, personal details, secrets, exported links and real student responses. Git history matters too: deleting a secret from the latest file does not remove it from earlier commits.
 
-**GitHub is not a backup of live game sessions.** Save those separately if needed. On a VM installed with the provided script, `sudo bash deploy/backup-vm.sh` creates a private archive under `/var/backups/singularity`. Download it to a private location and verify it before removing the server. [Restore instructions](../deploy/README.md)
+**GitHub is not a backup of live participant responses.** Have the agent save those separately if needed. For this example's VM, the agent runs `sudo bash deploy/backup-vm.sh` to create a private archive under `/var/backups/singularity`, downloads it to a private location and verifies it before removing the server. Managed services may use a different export or backup method. [Example restore instructions](../deploy/README.md)
 
 ## Switch to another presentation
 
-You can reuse the same small VM for a different activity, one at a time. You do not need a new cloud server for each presentation. The agent should save the old project to GitHub, privately back up any required session data, prepare and test the new version locally, then deploy the chosen version with a clean database or a compatible migration.
+The agent can reuse compatible hosting for a different activity, one at a time. A new presentation does not automatically need a new server. It should save the old project to GitHub, privately back up required session data, prepare and test the new version locally, then deploy it with a clean database or a compatible migration. Check the hosting service's limits before switching.
 
 Replacing the title or `deck.json` alone is not enough: this example's graphics, rounds and speaker mappings also live in code. Have the agent check them together. Keep a rollback version and verify the new QR, speaker notes and results before inviting the class. Do not switch software during an active session.
 
@@ -73,6 +92,6 @@ After restarting a stopped VM, the public address may have changed. The agent sh
 
 Set a calendar reminder when you schedule the event: **save the project, verify the backup, then stop hosting**. Ask the agent to offer a reminder or shutdown schedule only when the date is known and you have approved it; do not silently shut down a future session.
 
-Closing the browser leaves the server running. Stopping the VM stops compute charges, but retained disks, snapshots and reserved addresses may still be billed. If you no longer need the installation, ask the agent to identify and remove only its resources after checking the backup. [Google Cloud stop/start billing notes](https://docs.cloud.google.com/compute/docs/instances/stop-start-instance)
+Closing the browser does not stop hosting. For managed services, have the agent check how to unpublish, stop or remove the activity and any billable storage. For a VM, stopping it stops compute charges, but retained disks, snapshots and reserved addresses may still be billed. If you no longer need the installation, ask the agent to identify and remove only its resources after checking the backup. [Google Cloud stop/start billing notes](https://docs.cloud.google.com/compute/docs/instances/stop-start-instance)
 
-For your next class, give the agent your GitHub repository and this guide. It can help restore the application to an eligible micro instance, subject to the current allowance, or deploy a different activity to the same VM. Have it explain the cost again before proceeding.
+For your next class, give the agent your GitHub repository and this guide. It can restore the activity to suitable hosting or develop a different one with you. Have it check access and explain the current cost again before proceeding.
