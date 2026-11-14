@@ -8,7 +8,9 @@ PresentTogether began with a wish to help teachers and students use AI to streng
 
 ## Start here
 
-Copy this into your agent. You can start with Codex, Cowork, GitHub Copilot or another tool with suitable capabilities. The agent checks what it can do and helps with any missing access. [Which tools can do this?](skills/interactive-classroom-presentation/references/tool-access.md)
+Copy this into your agent. You can start with Microsoft Copilot, Codex, Claude Cowork, GitHub Copilot or another tool with suitable capabilities. The agent checks what it can do and helps with any missing access. [Which tools can do this?](skills/interactive-classroom-presentation/references/tool-access.md)
+
+**Have a university account?** We recommend the Microsoft Copilot desktop app, signed in with that account. In Copilot Cowork, choose **Sol + High reasoning effort** when available. Using existing university access may save you a separate subscription. The agent checks permissions, included features and any extra charges first. [Setup and academic-use guidance](skills/interactive-classroom-presentation/references/tool-access.md#start-with-your-university-access)
 
 ```text
 Use https://github.com/scaled-thinking/present-together as your guide.
@@ -17,6 +19,8 @@ Read its interactive-classroom-presentation SKILL.md and follow its workflow.
 Help me develop an interactive activity around my own presentation.
 First check permitted use against the abstracted institution rules, before reading
 my teaching files. Then check your tools and guide me through any setup.
+Check any university AI access I already have before suggesting a paid plan.
+Prefer Sol with High reasoning effort when available and permitted.
 
 Analyse my material with me. Help clarify what the audience should learn,
 compare suitable activities and recommend one. Use Singularity as inspiration
@@ -59,7 +63,7 @@ For online participation, people need a working external link. A local preview i
 
 ## Costs and reuse
 
-A basic agent subscription around EUR 20/month may cover a small adaptation, depending on access and usage. [Model guidance](docs/MODELS.md)
+Check your existing university access before buying an agent subscription. Eligible Microsoft Copilot Chat access can be included; Cowork and other agent features may have separate charges. If you need another tool, a basic subscription around EUR 20/month may cover a small adaptation, depending on access and usage. [Model and cost guidance](docs/MODELS.md)
 
 The Singularity example's former server had an estimated list price of **US$0.33/day**, before tax and traffic. Eligible allowances or trial credits can reduce the amount payable to zero. Other activities may use managed hosting, static hosting or a different setup. The agent checks current prices and limits before you commit. [Cost breakdown and saving to GitHub](docs/HOSTING.md)
 

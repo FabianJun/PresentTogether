@@ -2,7 +2,7 @@
 
 **Start by giving your agent the [repository link and starter prompt](../README.md#start-here). It reads the guide, checks its tools and leads you through the process. You do not write code or deploy anything.**
 
-You bring the material and teaching judgement. The agent helps you explore, build and improve a way for people to take part. Codex, Cowork, GitHub Copilot and other capable tools can follow the workflow; the relevant capabilities matter more than the brand. [Tool guidance](../skills/interactive-classroom-presentation/references/tool-access.md)
+You bring the material and teaching judgement. The agent helps you explore, build and improve a way for people to take part. Microsoft Copilot, Codex, Claude Cowork, GitHub Copilot and other capable tools can follow the workflow; the relevant capabilities matter more than the brand. [Tool guidance](../skills/interactive-classroom-presentation/references/tool-access.md)
 
 The process is: **check permitted use -> provide -> analyse -> explore together -> plan access and costs -> build -> test -> get feedback -> iterate -> rehearse and use**.
 
@@ -22,7 +22,9 @@ The [starter prompt](../README.md#start-here) is the single entry point. You do 
 
 The agent handles programming, tests and deployment. You may need to sign in, grant access or approve a specific cost. It should not leave you with terminal commands or cloud-administration tasks to work out yourself.
 
-A basic subscription around EUR 20 a month may cover a small adaptation; usage limits and revision time matter. A capable coding model such as Sol or Opus with High reasoning effort is a starting recommendation where available. Ask the agent to check the options in your tool and explain usage costs. [Model guidance](MODELS.md)
+For university users, we recommend installing the **Microsoft Copilot desktop app** and signing in with the **university account**. Check that its work/school protection indicator is present. This follows the account-protection approach in the reviewed the institution guidance; installing an app alone does not establish permission. The [short setup guide](../skills/interactive-classroom-presentation/references/tool-access.md#start-with-your-university-access) explains the steps.
+
+In Copilot Cowork, select **Sol** and **High reasoning effort** if your institution makes them available. Ask the agent to check your existing entitlement before suggesting a purchase: included Chat access does not necessarily include Cowork usage. If another agent is needed, a basic subscription around EUR 20 a month may cover a small adaptation. [Models, alternatives and costs](MODELS.md)
 
 ## 2. Analyse what the audience needs to understand
 

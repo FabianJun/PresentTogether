@@ -13,6 +13,8 @@ The locally supplied *AI learning strategy for students*, sections 6–7 and App
 
 In the reviewed strategy, Alexandria is the permitted submission tool, with institution-authenticated Microsoft Copilot as a specified fallback when Alexandria is unavailable. A paid external coding-agent subscription is not equivalent to that approval. The restrictions refer to submissions, not only to work receiving a grade.
 
+The reviewed guidance requires the university account and evidence of Copilot's data-protection indicator when that fallback is used. This is why we recommend checking university Copilot access first. Installing the desktop app is a practical recommendation, not a policy requirement. Neither the installation nor the login automatically approves every new Copilot mode or model. Confirm current institutional permission for the specific use. GitHub Copilot is a separate product; the Microsoft Copilot reference does not approve it by association.
+
 Therefore:
 
 - Do not use this external-agent workflow to create or revise a graded assessment or a graded submission.
