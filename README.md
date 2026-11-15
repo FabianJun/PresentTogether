@@ -7,7 +7,7 @@
 For teachers and students preparing a talk, lecture or seminar.
 
 [![checks](https://github.com/scaled-thinking/present-together/actions/workflows/checks.yml/badge.svg)](https://github.com/scaled-thinking/present-together/actions/workflows/checks.yml)
-[![you decide: message, activity, verdict](https://img.shields.io/badge/you_decide-message%2C_activity%2C_verdict-c4432b)](#how-it-works)
+[![you decide: message, activity, verdict](https://img.shields.io/badge/you_decide-message%2C_activity%2C_verdict-b51f33)](#how-it-works)
 [![your agent: any capable one](https://img.shields.io/badge/your_agent-any_capable_one-2f5bea)](#works-with-your-agent)
 [![you keep: your method card](https://img.shields.io/badge/you_keep-your_method_card-0e7c7b)](#one-talk-start-to-finish)
 [![licence: MIT](https://img.shields.io/badge/licence-MIT-59636e)](LICENSE)
@@ -127,7 +127,7 @@ flowchart LR
     L --> F
     S --> F
     M --> F
-    classDef you stroke:#c4432b,stroke-width:2px
+    classDef you stroke:#b51f33,stroke-width:2px
     classDef agent stroke:#2f5bea,stroke-width:2px
     classDef evidence stroke:#0e7c7b,stroke-width:2px
 ```
