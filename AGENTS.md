@@ -1,4 +1,4 @@
-# Working in PresentTogether
+# Working in present-together
 
 These instructions apply to any AI agent working in this repository.
 
@@ -24,6 +24,10 @@ Keep approved game rules stable unless the user asks to change them: four rounds
 The moderator alone controls the shared screen. Speaker 3 owns slides 9-10 and follows the round notes; other speakers browse their consecutive blocks. Static files, participant views, graphs and notes must agree with current code. Label generated examples.
 
 Use Node 24+. Run `npm test` and `npm run build` for behaviour changes. For browser, notes or export changes, run the relevant Python checks from `docs/DEVELOPMENT.md`. Keep synthetic rooms separate. The skippable walkthrough must not change state.
+
+## Names
+
+The repository is `present-together`; docs files are `UPPER-KEBAB.md`. The example keeps its established file names (`presentation/Singularity_AI_2027.*`, `Speaker_Notes.md`, `Speaker_*_V9.pdf`), because its exports and checks use them.
 
 ## Sharing and hosting
 

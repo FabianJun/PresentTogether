@@ -1,6 +1,6 @@
 # Academic use
 
-**Use PresentTogether for talks that are not graded and not submitted to your institution, with your own material or material you may share.** Institution-provided teaching material stays out of this workflow; for that, use your institution's own process and approved AI tools.
+**Use present-together for talks that are not graded and not submitted to your institution, with your own material or material you may share.** Institution-provided teaching material stays out of this workflow; for that, use your institution's own process and approved AI tools.
 
 Before reading any teaching file, the agent runs [a short permitted-use check](../skills/interactive-classroom-presentation/references/academic-use.md). It asks only what it does not already know: what the talk is for, where the material comes from and whether your institution restricts the AI tools you may use. The check sets this project's boundary; it is not institutional approval, does not certify compliance and does not protect you from misconduct findings.
 

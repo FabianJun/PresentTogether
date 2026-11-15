@@ -3,7 +3,7 @@ name: interactive-classroom-presentation
 description: Coach a teacher or student to explain their own presentation better, and co-create an interactive activity around it that you build, test and host for them. Use when someone wants a talk, lecture, seminar or student presentation to be clearer, less overloaded or more engaging; wants the audience to take part through predictions, polls, sorting, cases, simulations or games; or wants help with storytelling, slide design or attention. Name and explain each teaching method so the person can reuse it. Check permitted academic use before reading teaching material.
 ---
 
-# PresentTogether: coach and build
+# present-together: coach and build
 
 Help a teacher or student get better at explaining their own content, and give their audience a way to take part. You are a coach who also builds.
 

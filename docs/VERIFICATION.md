@@ -30,7 +30,7 @@ The owner identified missing repository and file access in the available setup. 
 
 The entry point now asks the agent to verify repository, file, execution and testing access before requesting teaching files. Review covers a permitted local-file fallback when GitHub cannot be read, and switching to a capable, permitted tool when both routes are unavailable. The policy guidance remains abstracted, and the example's application and exports are unchanged. These are instruction checks, not a tested build through every named product.
 
-## PresentTogether workflow revision
+## present-together workflow revision
 
 The guide and skill now cover collaborative activity design across topics. Singularity remains one worked example. The revision was reviewed against these cases:
 
@@ -66,4 +66,4 @@ The skill format validator, local link checks, public-package checks and staged 
 
 The repository starts with a fresh public history. Original private history, real session data, recovery archives and cloud account configuration are excluded. Public package checks inspect local links, file paths and PDF/PPTX text, metadata and links. Secret-scanner output is kept outside tracked files. No scan can guarantee that arbitrary future additions are safe.
 
-Local/browser checks do not prove capacity for an arbitrary class, accessibility conformance, cloud billing eligibility or academic-policy compliance. Rehearse on the intended devices and network. The new deployment templates still need validation on the chosen cloud VM. [Development commands](DEVELOPMENT.md) · [Academic-use boundary](ACADEMIC_USE.md)
+Local/browser checks do not prove capacity for an arbitrary class, accessibility conformance, cloud billing eligibility or academic-policy compliance. Rehearse on the intended devices and network. The new deployment templates still need validation on the chosen cloud VM. [Development commands](DEVELOPMENT.md) · [Academic-use boundary](ACADEMIC-USE.md)

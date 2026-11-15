@@ -34,7 +34,7 @@ Keep within the first reply's three-question limit. If permitted use needs all t
 
 ## Local file format
 
-Use one plain Markdown file, `~/.competence-profiles/presenttogether.md`, outside every repository. On Windows the folder is `%USERPROFILE%\.competence-profiles\`. Use this format with `PresentTogether` as the tool and one table row per rated area, using the area names above. Dates are `YYYY-MM-DD`; the entries below are format examples, not a real profile.
+Use one plain Markdown file, `~/.competence-profiles/present-together.md`, outside every repository. On Windows the folder is `%USERPROFILE%\.competence-profiles\`. If only the earlier name `presenttogether.md` exists, read it once and, with the person's yes, rename it. Use this format with `present-together` as the tool and one table row per rated area, using the area names above. Dates are `YYYY-MM-DD`; the entries below are format examples, not a real profile.
 
 ```markdown
 # Competence profile: <tool>

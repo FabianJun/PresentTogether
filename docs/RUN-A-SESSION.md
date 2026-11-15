@@ -1,6 +1,6 @@
 # Run the Singularity example
 
-This guide explains the included game's controls. For an activity around your own presentation, start with [the general workflow](START_HERE.md); its format and controls may differ. Your agent prepares the working installation and gives you the address.
+This guide explains the included game's controls. For an activity around your own presentation, start with [the general workflow](START-HERE.md); its format and controls may differ. Your agent prepares the working installation and gives you the address.
 
 **Use the moderator console on your laptop. Show only the projection to the class.**
 
@@ -26,7 +26,7 @@ The presentation has 15 slides. Speakers 1 and 2 cover slides 1–4 and 5–8. S
 3. Choose **Show round result**. Both sides are revealed together. Explain their choices, points gained, totals and the change in control. Use the short result notes on the right.
 4. Choose **Next round**. Repeat for 2025, 2026, 2027 and Transition. After the final reveal, discuss the actual result before handing over to Speaker 4.
 
-You can show a result before everyone has voted. Missing individual votes are not counted. If a whole side has no votes, the app asks you to wait or choose for that side. Any such choice is labelled as a moderator decision; it is not presented as a student's vote. [Counting and scoring rules](GAME_RULES.md)
+You can show a result before everyone has voted. Missing individual votes are not counted. If a whole side has no votes, the app asks you to wait or choose for that side. Any such choice is labelled as a moderator decision; it is not presented as a student's vote. [Counting and scoring rules](GAME-RULES.md)
 
 ## If something goes wrong
 

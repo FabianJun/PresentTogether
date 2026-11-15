@@ -4,6 +4,28 @@
 
 This page is for teachers and students who want to know what will happen. You do not need to read it before you start.
 
+## Your first five minutes
+
+The agent opens your teaching material only after it knows what the talk is for and what you want the audience to remember.
+
+```mermaid
+sequenceDiagram
+    box rgba(196,67,43,0.08) You decide
+    actor You
+    end
+    box rgba(47,91,234,0.08) Your agent
+    participant A as Your AI agent
+    end
+    You->>A: The starter prompt, with your topic
+    Note over A: Tests its own tools on a harmless sample,<br/>not on your files
+    A-->>You: What works here, and the route in two lines
+    A-->>You: At most three short questions on permitted use
+    You->>A: Your answers
+    A-->>You: "If your audience remembers one sentence,<br/>what should it be?"
+    You->>A: Your core message
+    Note over You,A: Only now does it open your teaching material
+```
+
 ## How the agent works with you
 
 The agent is a coach who also builds. It does the technical work. On teaching, presenting and storytelling, it explains and suggests; you decide.
@@ -33,23 +55,23 @@ Use the same scale for each area:
 
 Each area gets its own depth; "shorter", "explain more" and "just do it" still win for the session. Without a rating, the agent starts with a full first explanation and reduces support as you show the method.
 
-The profile lives only on your computer at `~/.competence-profiles/presenttogether.md` (Windows folder: `%USERPROFILE%\.competence-profiles\`), outside every repository. At reflection, the agent proposes updates with the area, old → new level and one line of evidence from what you showed. Each proposal moves at most one step per area per session, up or down, and is applied only with your yes. It then shows progress in one or two lines.
+The profile lives only on your computer at `~/.competence-profiles/present-together.md` (Windows folder: `%USERPROFILE%\.competence-profiles\`), outside every repository. At reflection, the agent proposes updates with the area, old → new level and one line of evidence from what you showed. Each proposal moves at most one step per area per session, up or down, and is applied only with your yes. It then shows progress in one or two lines.
 
 You can read, edit or delete the file at any time, or ask the coaching agent to do it; you can also set any rating yourself. If the agent cannot save it there, it keeps it in the conversation and offers text you can save. Only the coaching agent reads it: it never goes into your talk, slides, activity brief, method card, logs or shared files, or to another service or helper. It is not for grading and is shared with nobody unless you choose. [Full profile rules](../skills/interactive-classroom-presentation/references/competence-profile.md)
 
 ## The route
 
-1. **Check permitted use.** Before it reads any teaching file, the agent checks that you may use the material with it. It asks at most three short questions, and none if you have already said enough. Its first reply never asks more than three questions in total. [Why this matters](ACADEMIC_USE.md)
-2. **Understand your talk.** It asks for your core message in one sentence (or repeats it back if you already gave it). Then it reads your material, asks where you think the audience will struggle, and sketches the story, the places where attention may drop and the idea the audience is most likely to misunderstand.
+1. **Check permitted use.** Before it reads any teaching file, the agent checks that you may use the material with it. It asks at most three short questions, and none if you have already said enough. Its first reply never asks more than three questions in total. [Why this matters](ACADEMIC-USE.md)
+2. **Understand your talk.** <img src="assets/icon-you.svg" width="14" height="14" alt="your view first"> It asks for your core message in one sentence (or repeats it back if you already gave it). Then it reads your material, asks where you think the audience will struggle, and sketches the story, the places where attention may drop and the idea the audience is most likely to misunderstand.
 3. **Improve the talk, if you want.** It offers three to five changes with the biggest effect, such as a sharper opening, one idea per slide or a clearer example, each with the reason behind it.
-4. **Find an activity.** It asks for your idea first. Then it shows three clearly different options: a safe one, an unusual one and one without technology. For each, it describes one minute from a participant's point of view and recommends one.
+4. **Find an activity.** <img src="assets/icon-you.svg" width="14" height="14" alt="your view first"> It asks for your idea first. Then it shows three clearly different options: a safe one, an unusual one and one without technology. For each, it describes one minute from a participant's point of view and recommends one.
 5. **Plan the setup and cost.** It picks the simplest setup that works, from paper to a shared live link, and tells you the cost before anything is paid. [Hosting and costs](HOSTING.md)
 6. **Build one complete interaction.** You get a working preview of one step, with a short explanation of the controls and speaker notes that link the activity back to your talk.
-7. **Try it and improve it.** You try it and say what you noticed. You do not need to suggest a technical fix: "people won't know what to do" is enough. It finds the cause, makes a small change and tests again.
+7. **Try it and improve it.** <img src="assets/icon-you.svg" width="14" height="14" alt="your view first"> You try it and say what you noticed. You do not need to suggest a technical fix: "people won't know what to do" is enough. It finds the cause, makes a small change and tests again.
 8. **Rehearse and hand over.** It checks timing, the real link on real devices and an offline fallback such as a PDF or paper version. You get the link or files, short instructions and notes.
 9. **Reflect.** Two or three short questions, one at a time, then a personal method card with the methods you used, in your own words, ready for your next talk. If you would rather skip the questions, the agent drafts the card and you edit it.
 
-The agent tells you which step you are in and skips steps you do not need. It keeps a short activity brief in your project folder, so you or another agent can pick up where you left off.
+<img src="assets/icon-you.svg" width="14" height="14" alt="your view first"> marks where the agent asks for your view before giving its own: your core message and where the audience may struggle (step 2), your activity idea (step 4) and your verdict (step 7). The agent tells you which step you are in and skips steps you do not need. It keeps a short activity brief in your project folder, so you or another agent can pick up where you left off.
 
 ## What you might be asked to do
 
@@ -77,4 +99,4 @@ Save the project to your own code-hosting account if you want to reuse it; the a
 
 ## The included example
 
-The [Singularity seminar](SINGULARITY_EXAMPLE.md) is one worked example: a game with roles, choices and a debrief. Borrow its patterns when they help. Its teams, rounds and scores were choices for that seminar, not a template for yours.
+The [Singularity seminar](SINGULARITY-EXAMPLE.md) is one worked example: a game with roles, choices and a debrief. Borrow its patterns when they help. Its teams, rounds and scores were choices for that seminar, not a template for yours.

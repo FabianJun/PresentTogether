@@ -17,13 +17,13 @@ The example combines an AI 2027 scenario, a prisoner's-dilemma matrix and a four
 | Notes that follow the activity | Instructions and explanations match the current phase and actual result. |
 | Tested rules and an offline fallback | The presenter can rehearse and continue if participation or connectivity is incomplete. |
 
-Two sides, four rounds, competitive points, the control target and four speakers were choices for this particular seminar. Other topics may work better with predictions, sorting, annotation, cases or a simple visual. Use the [general guide](START_HERE.md) and [agent skill](../skills/interactive-classroom-presentation/SKILL.md) to decide together.
+Two sides, four rounds, competitive points, the control target and four speakers were choices for this particular seminar. Other topics may work better with predictions, sorting, annotation, cases or a simple visual. Use the [general guide](START-HERE.md) and [agent skill](../skills/interactive-classroom-presentation/SKILL.md) to decide together.
 
 ## Inspect the materials
 
 - [Complete PowerPoint](../presentation/Singularity_AI_2027.pptx) with editable notes.
 - [Complete PDF](../presentation/Singularity_AI_2027.pdf) and [speaker text](../presentation/Speaker_Notes.md).
-- [Operating guide](RUN_A_SESSION.md), [game rules](GAME_RULES.md) and [verification record](VERIFICATION.md).
+- [Operating guide](RUN-A-SESSION.md), [game rules](GAME-RULES.md) and [verification record](VERIFICATION.md).
 - [Code map and checks](DEVELOPMENT.md).
 
 The original server has been retired. These are reusable files, not a maintained public game service.
@@ -42,7 +42,7 @@ npm test
 npm run dev
 ```
 
-The preview opens at `http://127.0.0.1:8787` and uses temporary in-memory data. It is reachable from that computer only. The [operating guide](RUN_A_SESSION.md) explains the moderator, projection and participant views.
+The preview opens at `http://127.0.0.1:8787` and uses temporary in-memory data. It is reachable from that computer only. The [operating guide](RUN-A-SESSION.md) explains the moderator, projection and participant views.
 
 For online participation, have the agent choose and deploy an appropriate setup. [Hosting and costs](HOSTING.md) describes the example's former micro VM and reusable deployment templates. A new activity may need different software or no server at all.
 

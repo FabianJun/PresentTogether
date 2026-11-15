@@ -1,4 +1,4 @@
 interface:
-  display_name: "PresentTogether"
+  display_name: "present-together"
   short_description: "Coaching to explain your talk better, plus an activity built for you"
   default_prompt: "Use $interactive-classroom-presentation to coach me so I get better at explaining my topic, and build an activity around my talk. Check permitted use first, name the methods you suggest and handle all the technical work."
