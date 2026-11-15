@@ -13,6 +13,30 @@ The agent is a coach who also builds. It does the technical work. On teaching, p
 - **You control the depth.** Say "shorter" for less explanation, "explain more" for more, or "just do it" when you want results without the lesson.
 - **Your voice stays yours.** It suggests changes as before/after; you choose. If your course requires independent work, that part stays yours.
 
+## Your competence profile
+
+You can rate yourself in six areas so the agent knows how deeply to explain. It offers this once; skipping never holds up your talk.
+
+- **Core message and story:** one core message, And-But-Therefore, opening and ending.
+- **Slides and visuals:** cognitive load, assertion–evidence, charts and contrast.
+- **Explaining a hard idea:** moving from concrete examples to abstract ideas, analogies, prediction and pauses.
+- **Attention and taking part:** activity design and placement, recalling ideas, discussing answers with peers and accessibility.
+- **Feedback and iteration:** trying it, noticing what goes wrong and improving it.
+- **Rehearsal and delivery:** timing, speaking, handling questions and the activity brief.
+
+Use the same scale for each area:
+
+- **1 New:** you have not met it yet; the agent explains fully once, uses your project as an example and checks understanding with one question.
+- **2 Knows the terms:** you have heard of it but not applied it; the agent gives a short explanation, names the method and recommends an option.
+- **3 Applies with support:** you have used it with help; the agent names the method, gives a one-line reason and asks for your call first.
+- **4 Applies and judges:** you use it independently and can explain it; the agent names the method, lets you lead and invites you to challenge its proposal.
+
+Each area gets its own depth; "shorter", "explain more" and "just do it" still win for the session. Without a rating, the agent starts with a full first explanation and reduces support as you show the method.
+
+The profile lives only on your computer at `~/.competence-profiles/presenttogether.md` (Windows folder: `%USERPROFILE%\.competence-profiles\`), outside every repository. At reflection, the agent proposes updates with the area, old → new level and one line of evidence from what you showed. Each proposal moves at most one step per area per session, up or down, and is applied only with your yes. It then shows progress in one or two lines.
+
+You can read, edit or delete the file at any time, or ask the coaching agent to do it; you can also set any rating yourself. If the agent cannot save it there, it keeps it in the conversation and offers text you can save. Only the coaching agent reads it: it never goes into your talk, slides, activity brief, method card, logs or shared files, or to another service or helper. It is not for grading and is shared with nobody unless you choose. [Full profile rules](../skills/interactive-classroom-presentation/references/competence-profile.md)
+
 ## The route
 
 1. **Check permitted use.** Before it reads any teaching file, the agent checks that you may use the material with it. It asks at most three short questions, and none if you have already said enough. Its first reply never asks more than three questions in total. [Why this matters](ACADEMIC_USE.md)
@@ -49,7 +73,7 @@ Describe what you experienced; the agent works out the cause.
 
 ## After the event
 
-Save the project to your own GitHub account, or another code host, if you want to reuse it; the agent can do this for you. Participant data and passwords are kept out of it. Closing the browser does not stop hosting, so ask the agent for a reminder to stop it. [Saving, reusing and stopping](HOSTING.md)
+Save the project to your own code-hosting account if you want to reuse it; the agent can do this for you. Participant data and passwords are kept out of it. Closing the browser does not stop hosting, so ask the agent for a reminder to stop it. [Saving, reusing and stopping](HOSTING.md)
 
 ## The included example
 

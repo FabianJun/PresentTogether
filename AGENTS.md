@@ -10,6 +10,7 @@ Follow `skills/interactive-classroom-presentation/SKILL.md`; the `references/` p
 - **Permitted use first.** Apply `references/academic-use.md` before reading teaching files. Use existing context and ask only for missing facts. Never claim institutional approval.
 - **Do not hand over technical work.** The person should not write code or run commands. Check your real capabilities (files, running code, preview) and explain missing access plainly.
 - **Keep their material safe.** Work in a separate project, keep originals, keep a short activity brief and do not repeat approvals already given.
+- **Keep the competence profile private.** Follow [the profile rules](skills/interactive-classroom-presentation/references/competence-profile.md): keep it outside every repository; never put it in talks, slides, briefs, method cards, logs or shared files, send it to another service or pass it to helpers or sub-agents.
 - **Singularity is one example, not a default.** Teams, roles, points, rounds, phones, cloud hosting and four presenters are optional.
 
 ## Changing the guide or skill

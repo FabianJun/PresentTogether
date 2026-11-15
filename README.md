@@ -73,6 +73,8 @@ sequenceDiagram
 
 The agent is a coach who also builds. It does the technical work. On teaching, presenting and storytelling, it explains and suggests; you decide.
 
+With an optional [competence profile](docs/START_HERE.md#your-competence-profile), the agent adapts how deeply it explains to what you already know in six areas. The profile grows with what you learn, with updates only when you say yes.
+
 | | Step | What the agent does | Your part |
 |---|---|---|---|
 | 1 | **Check permitted use** | Asks what the talk is for and where the material comes from, before opening any file. | Answer up to three short questions. |
@@ -138,6 +140,7 @@ flowchart LR
 ## What you get
 
 - **Coaching on your talk:** core message, story, slide design and attention, explained as methods you can reuse. [Method cards](skills/interactive-classroom-presentation/references/methods.md)
+- **An optional private competence profile** on your computer, never in a repository. It helps the agent adapt its coaching as you learn. [Your competence profile](docs/START_HERE.md#your-competence-profile)
 - **Three activity ideas** for your content, from a safe one to one without technology, and a recommendation. [Activity guide](skills/interactive-classroom-presentation/references/activity-design.md)
 - **A working activity**, tested, hosted if needed, with notes and an offline fallback. Costs are explained before anything is paid. [Hosting and costs](docs/HOSTING.md)
 - **Your own method card** at the end, for your next talk. [Template](skills/interactive-classroom-presentation/references/method-card-template.md)

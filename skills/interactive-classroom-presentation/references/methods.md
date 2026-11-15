@@ -217,7 +217,7 @@ Mayer (2020) reviews evidence-based principles from many experiments. *Strong fo
 
 - **What it is:** guidance that helps beginners can get in the way of people who already know a topic (Kalyuga et al., 2003).
 - **Why it works:** experts must process help they do not need. *Strong.*
-- **How:** for you as the agent, explain a method fully the first time and briefly after. For the audience, give more scaffolding to novices and more open tasks to experts.
+- **How:** adapt coaching per area with the [competence profile](competence-profile.md), fading support as the person shows the method. For the audience, give more scaffolding to novices and more open tasks to experts.
 - **Typical mistake:** explaining the same method in full every time it comes up.
 - **When it does not fit:** a person who asks for more detail; follow their lead.
 
