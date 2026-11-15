@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/social-preview.jpg" width="100%" alt="present-together: co-design interactive presentations with an AI agent, then build, test and host them. Risograph print in red, teal and blue: an audience seen from behind as a row of raised red and blue hands, each pinching one teal thread at a different height, so together they lift it into a curve that rises steeply like compound growth.">
+<img src="docs/assets/social-preview.jpg" width="100%" alt="present-together: co-design interactive presentations with an AI agent, then build, test and host them. Risograph print in red, teal and blue: a row of raised arms, red human arms in patterned sleeves alternating with bare blue robot arms, each hand pinching one teal thread at a different height, so together they lift it into a curve that rises steeply like compound growth.">
 
 **Get better at explaining what you know, with an AI that coaches you on the teaching and does the technical work for you.**
 
