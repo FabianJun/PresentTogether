@@ -26,6 +26,7 @@ async def main():
     presentation.core_properties.title = 'Singularity: How can we maintain control over increasingly complex AI systems?'
     presentation.core_properties.subject = 'Ethics, strategic competition and meaningful human control'
     presentation.core_properties.author = 'Singularity seminar team'
+    presentation.core_properties.last_modified_by = 'Singularity seminar team'
     assert sum(x['seconds'] for i,x in enumerate(deck) if i not in [8,9]) == 660
     assert all(sum(x['seconds'] for i,x in enumerate(deck) if i not in [8,9] and x['speaker']==n)==220 for n in [1,2,4])
     assert all(deck[i]['speaker']==3 for i in [8,9])

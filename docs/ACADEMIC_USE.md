@@ -17,8 +17,8 @@ So:
 
 This is the **conservative boundary chosen for this project**. It is narrower than many institutions' rules and does not claim that any institution bans all AI in assessed work.
 
-## Institution profiles
+## Apply your current institutional rules
 
-Rules differ between institutions. Where someone has checked an institution's rules, the skill keeps a short profile in [the institutions folder](../skills/interactive-classroom-presentation/references/institutions/). The first profile is for [the institution](../skills/interactive-classroom-presentation/references/institutions/TEMPLATE.md), where this project began. To add yours, copy [the template](../skills/interactive-classroom-presentation/references/institutions/TEMPLATE.md). Original institutional documents and local paths are never included in this repository.
+The guidance is institution-agnostic. The owner brings their institution's current policy, module or course instructions and lecturer guidance. These apply alongside the general check, with the stricter rule taking precedence; a missing rule is not permission. Institutional permission does not relax this project's conservative boundary. Keep institutional rule notes in the owner's own copy or outside this repository, never committed here. This repository ships only an unfilled template, with no institution profiles, names or source documents.
 
 The software licence grants software permissions only. It does not grant academic permission, rights to institutional content or permission to bypass assessment rules.

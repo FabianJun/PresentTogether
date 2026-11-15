@@ -15,7 +15,7 @@ Follow `skills/interactive-classroom-presentation/SKILL.md`; the `references/` p
 
 ## Changing the guide or skill
 
-Keep product and model names in `references/tools-and-models.md` and institution-specific rules in `references/institutions/`. Everything else stays vendor-neutral. Keep only abstracted policy guidance in this repository, never institutional source documents or local paths. Check the skill frontmatter, local links, scope and plain language, and how the guide works for a non-technical user. Wording changes do not need the example's full test suite; run checks that fit what changed.
+Keep product and model names in `references/tools-and-models.md`. Everything else stays vendor-neutral. Keep academic-use guidance institution-agnostic: the owner brings current policy, module or course instructions and lecturer guidance; apply them alongside the general check, with the stricter rule taking precedence. Keep institutional rules and completed templates in the owner's own copy or outside this repository; never commit them here. `references/institutions/` ships only `TEMPLATE.md`. Never include institutional source documents or local paths. Check the skill frontmatter, local links, scope and plain language, and how the guide works for a non-technical user. Wording changes do not need the example's full test suite; run checks that fit what changed.
 
 ## Editing the included Singularity example
 

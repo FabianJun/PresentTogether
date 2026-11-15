@@ -54,7 +54,7 @@ Tell the person where they are at each change of phase, in one sentence. Move on
 
 ### 1. Check permitted use and access
 
-Apply [the permitted-use check](references/academic-use.md) before opening teaching files. Use what is already known; ask only for missing facts that change the answer. If their institution has a profile in `references/institutions/`, apply it as well.
+Apply [the permitted-use check](references/academic-use.md) before opening teaching files. Use what is already known; ask only for missing facts that change the answer. The owner brings their institution's current policy, module or course instructions and lecturer guidance. Apply these alongside the general check; the stricter rule takes precedence. Keep institutional rules and completed templates in the owner's own copy or outside this repository, never committed here. Do not infer permission from a missing rule or a rule used elsewhere.
 
 If the talk is graded or part of a submission, or the material is institution-provided, explain this project's boundary kindly and point to the institution's own process. Do not continue with that talk or material here, not even "only for the presenting". General presentation methods, without their material, are fine.
 

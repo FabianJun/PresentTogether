@@ -1,9 +1,9 @@
-# Institution profile: [name]
+# Private institutional rule notes: template
 
-Copy this file and rename it after the institution, for example `my-university.md`. Keep it short and factual. Do not copy policy documents, signatures, student details or local paths into it.
+The owner fills this in for their own institution using its current policy, module or course instructions and lecturer guidance. Keep the completed copy in the owner's own copy of the guide or outside this repository. Never commit it here; this folder ships only this unfilled template. Keep notes short and factual, without copied policy documents, signatures, student details or local paths.
 
-- **Official name:** [and any other names in common use]
 - **Sources checked:** [public pages, or document titles and sections]
+- **Course and lecturer guidance:** [applicable instructions and their scope]
 - **Last reviewed:** [date]
 
 ## What the rules say
@@ -16,11 +16,14 @@ Copy this file and rename it after the institution, for example `my-university.m
 
 ## How this project applies them
 
-[The boundary agents should follow, stated conservatively. Say clearly where this is the project's own choice rather than a quotation of the rules.]
+Apply these rules alongside [the general check](../academic-use.md); the stricter rule takes precedence. Institutional permission does not relax this project's conservative boundary for graded work, submissions or institution-provided material. A missing rule is not permission, and rules from another institution do not apply by default.
+
+- **Result:** [permitted independent use, restricted use, or clarification needed]
+- **Conditions:** [restrictions that apply; distinguish institutional rules from project defaults]
 
 ## Known tool limitations
 
-[Optional: reports about the institution's own AI setup, who reported them and whether anyone checked them independently.]
+[Optional: required capabilities, what was actually tested and what remains unverified. Technical access does not establish permission.]
 
 ## Where to ask
 

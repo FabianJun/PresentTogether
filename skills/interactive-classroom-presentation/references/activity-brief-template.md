@@ -17,7 +17,7 @@ Last updated: [date]
 
 ## Permitted use
 - Result of the check: [e.g. own material, ungraded, outside any submission]
-- Institution profile applied: [name or none]
+- Applicable rules checked: [conditions and result only; keep institutional names, source documents and private rule notes outside this repository]
 
 ## Changes to the talk (agreed)
 - [method]: [before -> after] — [why]

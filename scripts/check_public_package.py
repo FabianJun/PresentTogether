@@ -1,7 +1,8 @@
-"""Check tracked paths, local documentation links and exported document contents.
+"""Check package paths, local documentation links and exported document contents.
 
 Complements a real secret scanner; it is not a proof that arbitrary files are safe.
-Stage the intended files first. No matched secret value is printed.
+Includes untracked, non-ignored files and excludes working-tree deletions.
+No matched secret value is printed.
 """
 import json
 import re
@@ -14,10 +15,13 @@ import pymupdf
 from pptx import Presentation
 
 ROOT = Path(__file__).resolve().parents[1]
-files = subprocess.check_output(['git', 'ls-files', '-z'], cwd=ROOT).decode('utf-8').split('\0')
-files = [Path(p) for p in files if p]
-assert files, 'Stage the intended public files first.'
+files = subprocess.check_output(
+    ['git', 'ls-files', '--cached', '--others', '--exclude-standard', '--deduplicate', '-z'], cwd=ROOT
+).decode('utf-8').split('\0')
+files = [Path(p) for p in files if p and (ROOT / p).is_file()]
+assert files, 'No public package files found.'
 failures = []
+institutions = Path('skills/interactive-classroom-presentation/references/institutions')
 forbidden_dirs = {'data', 'backups', 'artifacts', 'output', '.openai', 'node_modules', '.venv'}
 rules = {
     'local-user-path': re.compile(r'[A-Z]:[/\\]Users[/\\]', re.I),
@@ -34,6 +38,8 @@ def inspect(text, label):
 
 for relative in files:
     path = ROOT / relative
+    if institutions in relative.parents and relative != institutions / 'TEMPLATE.md':
+        failures.append(f'{relative}: only the unfilled institutional template may be shipped')
     if forbidden_dirs.intersection(relative.parts) or path.suffix in {'.sqlite', '.db', '.pem', '.key', '.zip', '.gz'} or path.name.startswith('.env'):
         failures.append(f'{relative}: private/generated path')
     if path.stat().st_size > 95 * 1024 * 1024:
@@ -49,7 +55,7 @@ for relative in files:
             inspect(json.dumps(document.metadata), str(relative))
             for page in document:
                 inspect(page.get_text() + json.dumps(page.get_links(), default=str), str(relative))
-    elif path.suffix in {'.md', '.json', '.js', '.mjs', '.py', '.sh', '.css', '.html', '.sql', '.yml', '.yaml', '.txt'} or path.name in {'LICENSE', '.gitignore', '.gitattributes'}:
+    elif path.suffix in {'.md', '.json', '.js', '.mjs', '.py', '.sh', '.css', '.html', '.sql', '.svg', '.yml', '.yaml', '.txt'} or path.name in {'LICENSE', '.gitignore', '.gitattributes'}:
         text = path.read_text(encoding='utf-8-sig')
         inspect(text, str(relative))
         if path.suffix == '.md':
@@ -73,4 +79,4 @@ with pymupdf.open(ROOT / 'presentation/Singularity_AI_2027.pdf') as pdf:
     assert any(link.get('uri') for link in pdf[9].get_links())
     assert all('https://' in pdf[i].get_text() for i in (12, 13, 14))
 assert not failures, '\n'.join(failures)
-print(f'PASS: {len(files)} tracked files; local links, private-path patterns, binary metadata/links and 17-page exports checked.')
+print(f'PASS: {len(files)} package files; institutional template boundary, local links, private-path patterns, binary metadata/links and 17-page exports checked.')

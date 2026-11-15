@@ -31,11 +31,11 @@ This is an assessment from official documentation, not an end-to-end test of thi
 
 | Agent | Why it can suit this work | What to check |
 |---|---|---|
-| **ChatGPT Work with Sites** | Builds, tests and hosts web apps with a shareable address. | Availability, storage, sharing permissions and cost; this is managed hosting. [App workflow](https://learn.chatgpt.com/use-cases/build-and-deploy-internal-apps) |
-| **Claude Code or Claude Cowork** | Works with files and runs code; Cowork can also operate permitted desktop apps. | Access to the project, preview, tests and deployment. [Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork), [computer use](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork) |
+| **ChatGPT Work with Sites** | Tools for building, testing and hosting web apps with a shareable address. | Availability, storage, sharing permissions and cost; this is managed hosting. [App workflow](https://learn.chatgpt.com/use-cases/build-and-deploy-internal-apps) |
+| **Claude Code or Claude Cowork** | File and execution tools; permitted desktop-app access where available. | Access to the project, preview, tests and deployment. [Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork), [computer use](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork) |
 | **Cursor** | A coding agent that reads `AGENTS.md` and Agent Skills. | The same four access checks. [Cursor skills](https://cursor.com/docs/context/skills) |
 | **GitHub Copilot in VS Code** | Agent mode with project files, tools and a browser for checking a web app. | Run and browser tools, hosting access, your entitlement and any institutional permission. [Agent workflow](https://code.visualstudio.com/docs/agents/run/agents-window) |
-| **Microsoft 365 Copilot in PowerPoint** | Helps with slides and can create interactions inside a slide. | Whether that format fits. Interactive-slide actions in Teams are not shared across participants, so this is not a live multiplayer app. [Interactive slides](https://support.microsoft.com/en-us/powerpoint/copilot/create-interactive-slides-with-copilot-in-powerpoint) |
+| **Microsoft 365 Copilot in PowerPoint** | Slide support and interactions inside a slide. | Whether that format fits. Interactive-slide actions in Teams are not shared across participants, so this is not a live multiplayer app. [Interactive slides](https://support.microsoft.com/en-us/powerpoint/copilot/create-interactive-slides-with-copilot-in-powerpoint) |
 | **Microsoft Copilot Cowork**, if enabled | An option for accounts that provide the necessary file and agent tools. | The access checks, licensing, usage credits and external sharing. [Copilot app](https://support.microsoft.com/en-us/microsoft-365-copilot/what-is-microsoft-copilot-app) |
 | **OpenAI Codex** | A coding agent that can build, run and check an activity in a project. | File, run, browser and hosting access in your session. [Coding workflow](https://learn.chatgpt.com/use-cases/browser-games) |
 
@@ -47,7 +47,7 @@ For a custom shared activity, start with a coding agent that has file, run and b
 
 ### Microsoft Copilot is not GitHub Copilot
 
-They are different products. A Microsoft login from a school or university does not grant GitHub Copilot access or make it an approved tool. See [Microsoft's account guidance](https://learn.microsoft.com/en-us/copilot/manage/manage-copilot-chat). Institution-specific reports about particular setups are kept in [the institution profiles](institutions/).
+They are different products. A Microsoft login from a school or university does not grant GitHub Copilot access or make it an approved tool. See [Microsoft's account guidance](https://learn.microsoft.com/en-us/copilot/manage/manage-copilot-chat). Check the available tools in the actual session and apply the owner's current institutional rules through [the general check](academic-use.md). Keep account-specific reports in the owner's own copy or outside this repository.
 
 ## How agents find the guide
 
@@ -59,8 +59,8 @@ If you want the skill available in every project, copy the `skills/interactive-c
 |---|---|---|
 | Claude Code | `CLAUDE.md`, or `AGENTS.md` when no `CLAUDE.md` exists | `.claude/skills/` |
 | Cursor | `AGENTS.md` or `.cursor/rules/` | `.agents/skills/` or `.cursor/skills/` |
-| Gemini CLI | `GEMINI.md` (reads `AGENTS.md` only if configured) | `.agents/skills/` or `.gemini/skills/` |
-| GitHub Copilot (VS Code and cloud agent) | `AGENTS.md` or `.github/copilot-instructions.md` | `.github/skills/` (the cloud agent also reads `.agents/skills/`) |
+| Gemini CLI | `GEMINI.md` (`AGENTS.md` requires configuration) | `.agents/skills/` or `.gemini/skills/` |
+| GitHub Copilot (VS Code and cloud agent) | `AGENTS.md` or `.github/copilot-instructions.md` | `.github/skills/` (`.agents/skills/` also supported by the cloud agent) |
 | OpenAI Codex | `AGENTS.md` | `.agents/skills/` |
 
 Sources: [Codex AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), [Codex skills](https://learn.chatgpt.com/docs/build-skills), [Claude Code memory](https://code.claude.com/docs/en/memory), [Claude Code skills](https://code.claude.com/docs/en/skills), [VS Code instructions](https://code.visualstudio.com/docs/agents/reference/custom-instructions-reference), [VS Code skills](https://code.visualstudio.com/docs/agent-customization/agent-skills), [GitHub cloud agent](https://docs.github.com/en/copilot/reference/custom-instructions-support), [Cursor rules](https://cursor.com/docs/context/rules), [Gemini CLI](https://geminicli.com/docs/cli/gemini-md/) and the [Agent Skills specification](https://agentskills.io/specification). The Gemini CLI documentation says it has been replaced by Antigravity CLI for unpaid-tier and Google One users; check the current tool for your account.

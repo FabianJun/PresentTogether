@@ -1,26 +1,32 @@
 # Verification record
 
-Public package checked on 14 November 2026. Application checks use synthetic participants, not real classroom responses.
+The checks below record their own scope and date. Application checks use synthetic participants, not real classroom responses.
+
+## Institution-agnostic academic use
+
+Revised on 15 November 2026. The owner brings current institutional policy, module or course instructions and lecturer guidance. The stricter rule takes precedence alongside the general check; institutional permission does not relax the project's conservative boundary. Only the unfilled institutional rule template is shipped. Completed rule notes stay in the owner's own copy or outside this repository and are never committed here.
+
+Institution and company names were removed from the example's displayed wording and citation labels; source URLs and technical product and model names were retained. Vendor-as-actor wording was replaced with neutral source attribution. Notes and existing exports were updated together; the game rules and presentation roles remain unchanged.
 
 ## Coaching and vendor-neutral revision
 
-The guide and skill were rewritten around competence-enhancing coaching: the agent helps a teacher or student explain their own content better, names each method with its evidence, asks for their view first at four moments, and ends with a personal method card. Product and model names moved to `references/tools-and-models.md`; institution rules moved to `references/institutions/`. The Singularity example's code, game rules, slides, exports and tests are unchanged.
+The guide and skill were rewritten around competence-enhancing coaching: the agent helps a teacher or student explain their own content better, names each method with its evidence, asks for their view first at four moments, and ends with a personal method card. Product and model names are kept in `references/tools-and-models.md`. Academic-use guidance is institution-agnostic: current institutional, course and lecturer rules apply alongside the general check, with the stricter rule taking precedence. Completed rule templates stay in the owner's own copy or outside this repository; `references/institutions/` ships only `TEMPLATE.md`. The Singularity example's game rules and application behaviour remain unchanged.
 
 | Check | Result |
 |---|---|
 | `scripts/check_public_package.py` | Pass: local links, private-path patterns, binary metadata and exports. |
 | Local links and heading anchors in all Markdown files | Pass. |
 | Skill frontmatter against the Agent Skills specification | Pass: name matches the folder, description under 1,024 characters, body under 500 lines. |
-| Product names outside the allowed files | Only the hosting example, font notice and a pointer to the institution profile. |
+| Product names outside the allowed files | Only the hosting example and font notice. |
 | Method-card sources | Each cited study was looked up on 14 November 2026; cards without direct evidence are labelled *Practice*. |
 | Independent review of the whole change | Findings on the use boundary, question count, route consistency and overstated evidence were fixed, then reviewed again. |
 | Cold start with two different coding agents, given read-only tools and a fictitious overloaded talk | First runs: both gave a tool check, a short permitted-use check and the route, but both opened the slides before the check finished, and one did not ask for the core message. After tightening the first reply, a re-run asked for the core message but still opened the slides early and called graded use "fine". After a further fix, the final run left the slides closed, stated the boundary correctly and asked for the core message. It still reported being able to run code, which its read-only test setup did not allow. Instructions alone may not prevent agents from overstating their tools, so people should check these claims. |
 
 These are instruction checks with a small number of runs. They do not prove that every agent follows the skill, and the project has not been built end to end in every named tool. The Mermaid diagram in the README was not rendered locally.
 
-## University Copilot correction
+## Verify capabilities before recommending a tool
 
-The maintainer reports that the university Copilot setup cannot connect to GitHub or accept file uploads. The earlier recommendation to start with that tool has been withdrawn from the starter guide, model guidance and skill. This is user-reported evidence; the university configuration was not independently inspected. General product documentation did not establish that this account could complete the workflow.
+The owner identified missing repository and file access in the available setup. The earlier tool recommendation was withdrawn from the starter guide, model guidance and skill. Those access limits were not independently inspected. General product documentation did not establish that the available account could complete the workflow.
 
 The entry point now asks the agent to verify repository, file, execution and testing access before requesting teaching files. Review covers a permitted local-file fallback when GitHub cannot be read, and switching to a capable, permitted tool when both routes are unavailable. The policy guidance remains abstracted, and the example's application and exports are unchanged. These are instruction checks, not a tested build through every named product.
 
@@ -33,7 +39,7 @@ The guide and skill now cover collaborative activity design across topics. Singu
 | A sorting activity with ambiguous examples | Explain defensible alternatives; do not introduce points, teams or a fictional role by default. |
 | A visual annotation activity | Check placement, labels, screen sizes and an accessible alternative. |
 | A shared simulation | Specify assumptions, calculations and incomplete-response behaviour; test shared state separately from rendering. |
-| An ungraded graded submission | Apply the submission restriction before reading teaching files; ungraded is not an exemption. |
+| An ungraded submission where the owner's institution restricts AI use | Apply both the general submission boundary and the current institutional restriction before reading teaching files; ungraded is not an exemption, and the stricter rule takes precedence. |
 | A nontechnical teacher using a tool with limited access | Identify the missing capability and guide setup or handover; do not ask the teacher to write code or deploy. |
 | External participation without a hyperscaler account | Choose suitable managed or static hosting where it fits; verify the external link and any shared results. |
 

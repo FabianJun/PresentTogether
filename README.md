@@ -38,7 +38,7 @@ Lea decides what to keep, rehearses it, and ends with three methods she can reus
 
 ## Start here
 
-You need an **AI agent**: an AI assistant that can open files and run programs itself, not just chat. [Which tools work](skills/interactive-classroom-presentation/references/tools-and-models.md) lists some. Copy this into it and fill in the last line:
+You need an **AI agent**: one that can open files and run programs, not just chat. [Which tools work](skills/interactive-classroom-presentation/references/tools-and-models.md) lists some. Copy this into it and fill in the last line:
 
 ```text
 Use https://github.com/scaled-thinking/present-together as your guide and follow its SKILL.md.
@@ -157,7 +157,7 @@ Borrow its patterns: visible context for each participant, individual choices, e
 
 ## Works with your agent
 
-Any agent that can read files, run code and test a preview can follow this guide; the starter prompt is all it needs. It reads [`AGENTS.md`](AGENTS.md) and the [agent skill](skills/interactive-classroom-presentation/SKILL.md), so you can also copy the skill into your agent's skills folder. A chat-only assistant can still coach you on your message and activity idea; it just should not claim to have built anything. [Tools and models](skills/interactive-classroom-presentation/references/tools-and-models.md)
+Any agent that can read files, run code and test a preview can follow this guide; the starter prompt is all it needs. It reads [`AGENTS.md`](AGENTS.md) and the [agent skill](skills/interactive-classroom-presentation/SKILL.md), so you can also copy the skill into your agent's skills folder. A chat-only agent can still coach you on your message and activity idea; it just should not claim to have built anything. [Tools and models](skills/interactive-classroom-presentation/references/tools-and-models.md)
 
 ```text
 PresentTogether
@@ -173,7 +173,7 @@ PresentTogether
 
 - [What to expect, step by step](docs/START_HERE.md)
 - [The agent skill](skills/interactive-classroom-presentation/SKILL.md) and [instructions for agents](AGENTS.md)
-- [Academic use](docs/ACADEMIC_USE.md) and [institution profiles](skills/interactive-classroom-presentation/references/institutions/)
+- [Academic use](docs/ACADEMIC_USE.md) and [a template for private institutional rule notes](skills/interactive-classroom-presentation/references/institutions/TEMPLATE.md)
 - [The Singularity example](docs/SINGULARITY_EXAMPLE.md), its [operating guide](docs/RUN_A_SESSION.md) and [game rules](docs/GAME_RULES.md)
 - [Example code and checks](docs/DEVELOPMENT.md), [verification record](docs/VERIFICATION.md) and [security](SECURITY.md)
 
