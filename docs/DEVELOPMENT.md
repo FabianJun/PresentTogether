@@ -29,7 +29,7 @@ The preview listens on `127.0.0.1:8787` with an in-memory database. `npm start` 
 | `server/` | Node HTTP adapter and SQLite persistence. |
 | `drizzle/` | Ordered SQL migrations, including compatibility with earlier private versions. |
 | `scripts/` | Build, browser checks and exports. |
-| `tests/` | Node tests for rules, notes, persistence and access. |
+| `tests/` | Node tests for rules, notes, persistence and access; Python unit tests for the PDF helpers. |
 | `presentation/` | Complete static PDF, PowerPoint and speaker text. |
 | `web/assets/Speaker_*_V9.pdf` | Current individual speaker handouts. `V9` is the retained asset name, not a separate content source. |
 
@@ -42,6 +42,12 @@ Python 3.12 is a tested choice. Install the development packages and Chromium:
 ```sh
 python -m pip install -r requirements-dev.txt
 python -m playwright install chromium
+```
+
+Run the PDF unit tests after installing the Python packages; they do not need a browser or a running preview:
+
+```sh
+python -m unittest discover -s tests -p "test_*.py"
 ```
 
 On Linux CI, use `python -m playwright install --with-deps chromium`. Keep the local preview running in a separate terminal, then run:

@@ -2,7 +2,7 @@ from browser_support import browser_options
 """Derive four offline speaker parts from the same deck and browser slide captures."""
 import asyncio,base64,html,json,os,re,shutil,zipfile
 from pathlib import Path
-import pymupdf as fitz
+from pdf_support import page_texts
 from playwright.async_api import async_playwright
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -68,8 +68,8 @@ async def main():
             assert not overflow,(speaker,overflow)
             file=OUT/f'Speaker_{speaker}_{EDITION}.pdf'
             await page.pdf(path=str(file),print_background=True,prefer_css_page_size=True,display_header_footer=False)
-            pdf=fitz.open(file);assert len(pdf)==len(pages)
-            text=normal(' '.join(p.get_text() for p in pdf))
+            texts=page_texts(file);assert len(texts)==len(pages)
+            text=normal(' '.join(texts))
             for i in ids:
                 for paragraph in deck[i]['script'].split('\n\n'):
                     assert normal(paragraph) in text,(speaker,i,'spoken paragraph missing')
@@ -81,8 +81,11 @@ async def main():
                 for meaning in deck[9]['result_meanings'].values():assert normal(meaning) in text
                 for key in ['script','delivery','transition']:assert normal(deck[9]['debrief'][key]) in text
             assert 'References' in text
-            for n in [0,len(pdf)-1]:pdf[n].get_pixmap(matrix=fitz.Matrix(1.2,1.2)).save(str(OUT/f'speaker_{speaker}_page_{n+1}.png'))
-            report.append(dict(speaker=speaker,slides=[i+1 for i in ids],pages=len(pdf),say_and_actions_verified=True));pdf.close()
+            sections=page.locator('section.page')
+            assert await sections.count()==len(texts)
+            for n in [0,len(texts)-1]:
+                await sections.nth(n).screenshot(path=str(OUT/f'speaker_{speaker}_page_{n+1}.png'))
+            report.append(dict(speaker=speaker,slides=[i+1 for i in ids],pages=len(texts),say_and_actions_verified=True))
             shutil.copy2(file,ROOT/'web/assets'/file.name)
             files.append(file)
         await browser.close()

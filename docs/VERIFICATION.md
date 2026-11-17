@@ -2,6 +2,15 @@
 
 The checks below record their own scope and date. Application checks use synthetic participants, not real classroom responses.
 
+## PDF dependency replacement
+
+Checked on 2026-11-17; see the [decision record](DECISIONS.md). Committed exports were not regenerated.
+
+| Check | Result |
+|---|---|
+| `python -m unittest discover -s tests -p "test_*.py"` | Pass: 19 tests covering all PDF helpers, the committed presentation, synthetic PDFs, link targets other than web addresses, backslash paths in metadata and the legacy-import guard. |
+| Full browser export run with the replacement | Unchecked until the next local export or CI run. |
+
 ## Institution-agnostic academic use
 
 Revised on 15 November 2026. The owner brings current institutional policy, module or course instructions and lecturer guidance. The stricter rule takes precedence alongside the general check; institutional permission does not relax the project's conservative boundary. Only the unfilled institutional rule template is shipped. Completed rule notes stay in the owner's own copy or outside this repository and are never committed here.

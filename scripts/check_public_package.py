@@ -11,8 +11,8 @@ import zipfile
 from pathlib import Path
 from urllib.parse import unquote
 
-import pymupdf
 from pptx import Presentation
+from pdf_support import metadata, page_link_uris, page_link_values, page_texts, read_pdf
 
 ROOT = Path(__file__).resolve().parents[1]
 files = subprocess.check_output(
@@ -51,10 +51,11 @@ for relative in files:
                 if entry.endswith(('.xml', '.rels')):
                     inspect(archive.read(entry).decode('utf-8'), str(relative))
     elif path.suffix == '.pdf':
-        with pymupdf.open(path) as document:
-            inspect(json.dumps(document.metadata), str(relative))
-            for page in document:
-                inspect(page.get_text() + json.dumps(page.get_links(), default=str), str(relative))
+        document = read_pdf(path)
+        info = metadata(document)
+        inspect('\n'.join([*info, *info.values()]), str(relative))
+        for page, text in zip(document.pages, page_texts(document)):
+            inspect('\n'.join([text, *page_link_values(page)]), str(relative))
     elif path.suffix in {'.md', '.json', '.js', '.mjs', '.py', '.sh', '.css', '.html', '.sql', '.svg', '.yml', '.yaml', '.txt'} or path.name in {'LICENSE', '.gitignore', '.gitattributes'}:
         text = path.read_text(encoding='utf-8-sig')
         inspect(text, str(relative))
@@ -68,15 +69,16 @@ for relative in files:
 
 deck = json.loads((ROOT / 'deck.json').read_text(encoding='utf-8-sig'))
 presentation = Presentation(ROOT / 'presentation/Singularity_AI_2027.pptx')
-with pymupdf.open(ROOT / 'presentation/Singularity_AI_2027.pdf') as pdf:
-    assert len(pdf) == len(presentation.slides) == len(deck) + 2 == 17
-    for i, item in enumerate(deck):
-        assert item['script'] in presentation.slides[i].notes_slide.notes_text_frame.text, ('stale notes', i + 1)
-        assert len(pdf[i].get_text().strip()) > 30
-    for i in (15, 16):
-        assert 'WORKED EXAMPLE' in pdf[i].get_text()
-        assert all(year in pdf[i].get_text() for year in ('2025', '2026', '2027'))
-    assert any(link.get('uri') for link in pdf[9].get_links())
-    assert all('https://' in pdf[i].get_text() for i in (12, 13, 14))
+pdf = read_pdf(ROOT / 'presentation/Singularity_AI_2027.pdf')
+texts = page_texts(pdf)
+assert len(texts) == len(presentation.slides) == len(deck) + 2 == 17
+for i, item in enumerate(deck):
+    assert item['script'] in presentation.slides[i].notes_slide.notes_text_frame.text, ('stale notes', i + 1)
+    assert len(texts[i].strip()) > 30
+for i in (15, 16):
+    assert 'WORKED EXAMPLE' in texts[i]
+    assert all(year in texts[i] for year in ('2025', '2026', '2027'))
+assert page_link_uris(pdf.pages[9])
+assert all('https://' in texts[i] for i in (12, 13, 14))
 assert not failures, '\n'.join(failures)
 print(f'PASS: {len(files)} package files; institutional template boundary, local links, private-path patterns, binary metadata/links and 17-page exports checked.')

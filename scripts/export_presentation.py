@@ -3,7 +3,7 @@ from browser_support import browser_options
 import asyncio, json, os, shutil, zipfile, subprocess
 from pathlib import Path
 from playwright.async_api import async_playwright
-import pymupdf as fitz
+from pdf_support import add_uri_link, merge_pages, save_compressed, set_metadata, set_outline, single_page_text
 from pptx import Presentation
 from pptx.util import Inches
 
@@ -17,7 +17,7 @@ LIVE = os.environ.get('PUBLIC_URL', 'https://github.com/scaled-thinking/present-
 async def main():
     OUT.mkdir(parents=True, exist_ok=True)
     PUBLIC.mkdir(parents=True, exist_ok=True)
-    merged = fitz.open()
+    pdf_pages = []
     outlines = []
     deck = json.loads((ROOT / 'deck.json').read_text(encoding='utf-8'))
     assets = json.loads((ROOT / 'web/assets/sources.json').read_text(encoding='utf-8'))
@@ -71,10 +71,9 @@ async def main():
                 * { -webkit-print-color-adjust:exact!important; print-color-adjust:exact!important; }
             """)
             data = await page.pdf(width='1600px', height='900px', print_background=True, prefer_css_page_size=True, margin={'top':'0','bottom':'0','left':'0','right':'0'})
-            with fitz.open(stream=data, filetype='pdf') as one:
-                assert len(one) == 1 and len(one[0].get_text().strip()) > 30
-                merged.insert_pdf(one, links=True)
-            outlines.append([1, title, output_index+1])
+            assert len(single_page_text(data).strip()) > 30
+            pdf_pages.append(data)
+            outlines.append((title, output_index))
             slide = presentation.slides.add_slide(presentation.slide_layouts[6])
             picture = slide.shapes.add_picture(str(image), 0, 0, width=presentation.slide_width, height=presentation.slide_height)
             picture.name = f'{output_index+1:02} / {title}'
@@ -105,11 +104,11 @@ async def main():
     assert all('SAY' in s.notes_slide.notes_text_frame.text and '\nDO\n' in s.notes_slide.notes_text_frame.text for s in check.slides)
     with zipfile.ZipFile(pptx_path) as z:
         assert z.testzip() is None
-    merged[9].insert_link({'kind':fitz.LINK_URI,'from':merged[9].rect,'uri':LIVE})
-    merged.set_toc(outlines)
-    merged.set_metadata({'title':presentation.core_properties.title,'author':'Singularity seminar team','subject':'Seminar, references and labelled worked examples'})
-    merged.save(PUBLIC / 'Singularity_AI_2027.pdf', garbage=4, deflate=True)
-    merged.close()
+    merged = merge_pages(pdf_pages)
+    add_uri_link(merged, 9, LIVE)
+    set_outline(merged, outlines)
+    set_metadata(merged, presentation.core_properties.title, 'Singularity seminar team', 'Seminar, references and labelled worked examples')
+    save_compressed(merged, PUBLIC / 'Singularity_AI_2027.pdf')
     images = ROOT / 'docs' / 'images'
     images.mkdir(parents=True, exist_ok=True)
     shutil.copy2(OUT / 'powerpoint_01.png', images / 'presentation.png')
