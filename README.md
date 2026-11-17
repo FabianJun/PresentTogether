@@ -18,7 +18,7 @@ For teachers and students preparing a talk, lecture or seminar.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/assets/route-dark.svg">
-  <img alt="One route, two roles. Five steps: your talk, sharpen it, an activity, build and try, rehearse and reflect. At each step you decide: your core message, which changes you keep, your activity, your verdict on the first version and your method card. Your agent does the technical work: it checks permitted use, names each method, offers three activity options, builds, tests and hosts with the cost stated first, and checks real devices with an offline fallback." src="docs/assets/route-light.svg" width="100%">
+  <img alt="One route, two roles. Five steps: your talk, sharpen it, an activity, build and try, rehearse and reflect; at step 4 a feedback, fix and test loop ends ok. At each step you decide: your core message, which changes you keep, your activity, your verdict on the first version and your method card. Your agent does the technical work: it checks permitted use, names each method, offers three activity options, builds, tests and hosts with the cost stated first, and checks real devices with an offline fallback." src="docs/assets/route-light.svg" width="100%">
 </picture>
 
 </div>

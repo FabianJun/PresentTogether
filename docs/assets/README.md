@@ -4,7 +4,7 @@
 |---|---|---|---|---|
 | You decide | `#b51f33` | `#ff6470` | person | Your core message, choices, activity, verdict and own words |
 | Your agent | `#2f5bea` | `#7c9cff` | checkbox | Technical work: building, testing, hosting and checks |
-| Route and what you keep | `#0e7c7b` | `#2fb8b0` | arrow or check | The route, named methods, the method card and what you keep |
+| Route and what you keep | `#0e7c7b` | `#2fb8b0` | knotted thread | The route, named methods, the method card and what you keep |
 | Neutral | `#59636e` | `#9198a1` | none | Infrastructure, notes and facts |
 
 Where each role appears:
