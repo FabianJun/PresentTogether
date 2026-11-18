@@ -29,9 +29,10 @@ Reply in my language.
 My talk (fill in what you know): topic, audience, length, what they should take away.
 ```
 
-The agent checks its own tools first and opens your material only after a few questions
-([your first five minutes](docs/START-HERE.md#your-first-five-minutes)). "Let's brainstorm" is a fine
-start. You can say "shorter", "explain more" or "just do it" at any time.
+The guide tells the agent to check its own tools first, and to open your material only after you
+have confirmed you may use it and said what your audience should remember
+([your first five minutes](docs/START-HERE.md#your-first-five-minutes)). "Let's brainstorm" is a
+fine start. You can say "shorter", "explain more" or "just do it" at any time.
 
 - **What you need:** coaching on your talk works in almost any AI chat. To build and test, use an
   agent that can open files and run programs; it runs the commands, not you.
@@ -41,9 +42,9 @@ start. You can say "shorter", "explain more" or "just do it" at any time.
   Hosting a live activity is optional, and the agent shows you its cost and asks first.
   scaled-thinking hosts nothing and runs nothing commercially.
 - **Your files** stay on your computer unless a step needs them elsewhere. They go to the AI
-  provider you chose, and the guide tells the agent to ask you before material goes to any other
-  service. If you host a live activity that saves your audience's answers, they are stored on the
-  host you chose. scaled-thinking has no server that sees your files.
+  provider you chose, and the guide tells the agent to ask you before material goes to a service
+  that has not been used for it before. If you host a live activity that saves your audience's
+  answers, they are stored on the host you chose. scaled-thinking has no server that sees your files.
 
 > [!IMPORTANT]
 > **Before you share files:** use this only for talks that are not graded or submitted, with your own material or material you may share. The agent checks this first; it is not institutional approval. [Academic use](docs/ACADEMIC-USE.md)
