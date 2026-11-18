@@ -40,8 +40,10 @@ start. You can say "shorter", "explain more" or "just do it" at any time.
 - **Cost:** the module is free, and the AI runs on your own subscription or your own API access.
   Hosting a live activity is optional, and the agent shows you its cost and asks first.
   scaled-thinking hosts nothing and runs nothing commercially.
-- **Your files** go to the AI provider you chose, and the guide tells the agent to ask you before
-  material goes to any other service. scaled-thinking has no server that sees them.
+- **Your files** stay on your computer unless a step needs them elsewhere. They go to the AI
+  provider you chose, and the guide tells the agent to ask you before material goes to any other
+  service. If you host a live activity that saves your audience's answers, they are stored on the
+  host you chose. scaled-thinking has no server that sees your files.
 
 > [!IMPORTANT]
 > **Before you share files:** use this only for talks that are not graded or submitted, with your own material or material you may share. The agent checks this first; it is not institutional approval. [Academic use](docs/ACADEMIC-USE.md)
