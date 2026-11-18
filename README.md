@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/social-preview.jpg" width="100%" alt="present-together: co-design interactive presentations with an AI agent, then build, test and host them. Risograph print in red, teal and blue: a row of raised arms, red human arms in patterned sleeves alternating with bare blue robot arms, each hand pinching one teal thread at a different height, so together they lift it into a curve that rises steeply like compound growth.">
+<img src="docs/assets/social-preview.jpg" width="400" alt="present-together: co-design interactive presentations with an AI agent, then build, test and host them. Risograph print in red, teal and blue: a row of raised arms, red human arms in patterned sleeves alternating with bare blue robot arms, each hand pinching one teal thread at a different height, so together they lift it into a curve that rises steeply like compound growth.">
 
 **Get better at explaining what you know, with an AI that coaches you on the teaching and does the technical work for you.**
 
@@ -14,29 +14,12 @@ For teachers and students preparing a talk, lecture or seminar.
 
 [Start here](#start-here) · [One talk, start to finish](#one-talk-start-to-finish) · [How it works](#how-it-works) · [Activity ideas](#activity-ideas) · [Setup and cost](#setup-and-cost) · [The included example](#the-included-example) · [Works with your agent](#works-with-your-agent)
 
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/route-dark.svg">
-  <img alt="One route, two roles. Five steps: your talk, sharpen it, an activity, build and try, rehearse and reflect; at step 4 a feedback, fix and test loop ends ok. At each step you decide: your core message, which changes you keep, your activity, your verdict on the first version and your method card. Your agent does the technical work: it checks permitted use, names each method, offers three activity options, builds, tests and hosts with the cost stated first, and checks real devices with an offline fallback." src="docs/assets/route-light.svg" width="100%">
-</picture>
-
 </div>
-
-present-together is a guide and agent skill for your next talk. Your agent sharpens the talk with you
-and builds an activity your audience takes part in. Each suggestion names its method and why it works,
-so you can use it yourself next time.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/competence-dark.svg">
-  <img alt="Competence-enhancing AI makes you more capable, not more dependent: it explains, you decide, and you keep what you learn." src="docs/assets/competence-light.svg" width="100%">
-</picture>
 
 ## Start here
 
-You need an **AI agent**: one that can open files and run programs, not just chat.
-[Which tools work](skills/interactive-classroom-presentation/references/tools-and-models.md) lists
-some. Copy this into it and fill in the last line:
+Copy this into your **AI agent** and fill in the last line. An agent is an AI assistant that does
+work, not just chat: it opens your files, runs programs and checks the result.
 
 ```text
 Use https://github.com/scaled-thinking/present-together as your guide and follow its SKILL.md.
@@ -49,6 +32,16 @@ My talk (fill in what you know): topic, audience, length, what they should take 
 The agent checks its own tools first and opens your material only after a few questions
 ([your first five minutes](docs/START-HERE.md#your-first-five-minutes)). "Let's brainstorm" is a fine
 start. You can say "shorter", "explain more" or "just do it" at any time.
+
+- **What you need:** coaching on your talk works in almost any AI chat. To build and test, use an
+  agent that can open files and run programs; it runs the commands, not you.
+  [Which tools work](skills/interactive-classroom-presentation/references/tools-and-models.md)
+  lists some.
+- **Cost:** the module is free, and the AI runs on your own subscription or your own API access.
+  Hosting a live activity is optional, and the agent shows you its cost and asks first.
+  scaled-thinking hosts nothing and runs nothing commercially.
+- **Your files** go to the AI provider you chose, and the guide tells the agent to ask you before
+  material goes to any other service. scaled-thinking has no server that sees them.
 
 > [!IMPORTANT]
 > **Before you share files:** use this only for talks that are not graded or submitted, with your own material or material you may share. The agent checks this first; it is not institutional approval. [Academic use](docs/ACADEMIC-USE.md)
@@ -73,9 +66,23 @@ next talk. A teacher planning a lecture follows the same route.
 
 ## How it works
 
-The route above is the short form of nine steps, from permitted use to reflection; the agent skips
-those you do not need ([the full route](docs/START-HERE.md#the-route)). It does the technical work. On
-teaching, presenting and storytelling it explains and suggests, and you decide.
+present-together is a guide for your next talk, written as an agent skill: instructions your agent
+follows. Your agent sharpens the talk with you and builds an activity your audience takes part in.
+It does the technical work; on teaching, presenting and storytelling it explains and suggests, and
+you decide.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/competence-dark.svg">
+  <img alt="Competence-enhancing AI makes you more capable, not more dependent: it explains, you decide, and you keep what you learn." src="docs/assets/competence-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/route-dark.svg">
+  <img alt="One route, two roles. Five steps: your talk, sharpen it, an activity, build and try, rehearse and reflect; at step 4 a feedback, fix and test loop ends ok. At each step you decide: your core message, which changes you keep, your activity, your verdict on the first version and your method card. Your agent does the technical work: it checks permitted use, names each method, offers three activity options, builds, tests and hosts with the cost stated first, and checks real devices with an offline fallback." src="docs/assets/route-light.svg" width="100%">
+</picture>
+
+The route is the short form of nine steps, from permitted use to reflection; the agent skips those
+you do not need ([the full route](docs/START-HERE.md#the-route)).
 
 <img src="docs/assets/icon-you.svg" width="14" height="14" alt="your view first"> **Four times**, the
 agent asks before it suggests: your core message, where the audience may struggle, your activity idea
