@@ -1,0 +1,22 @@
+present-together
+Copyright 2026 scaled-thinking (scaled-thinking.com)
+
+Source code (including package.json and other build configuration), SKILL.md
+files and prompt files (AGENTS.md, GEMINI.md and everything under skills/)
+are licensed under LICENSE (Apache-2.0). Prose documentation (the other
+Markdown files, including README.md and docs/), teaching material
+(presentation/, the exported decks and speaker sheets, and the content data
+deck.json, references.json and web/assets/sources.json) and images are
+licensed under LICENSE-CC-BY-4.0. License texts retain their original terms.
+
+Portions of this project published before the change to Apache-2.0 and
+CC BY 4.0 were released under the MIT licence (then in LICENSE; its text is
+kept word for word in LICENSE-MIT-PRIOR). Their notice is kept. Every commit
+before the one that adds this NOTICE, including package version 1.0.0 (on
+the public main branch up to commit 8fa911d), stays under the MIT licence for
+whoever has it. Version 1.1.0 is the first release under the terms above.
+
+Third-party assets, source works and quotations are excluded from these
+grants and keep their own terms; see THIRD_PARTY_NOTICES.md. A licence does
+not override academic rules or rights to institutional content; see
+docs/ACADEMIC-USE.md for this project's teaching-use boundary.

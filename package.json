@@ -11,9 +11,9 @@
     "dev": "npm run build && node scripts/preview.mjs",
     "start": "npm run build && node server/index.mjs"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An interactive AI ethics seminar with role-based decisions, live results and speaker notes.",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "engines": {
     "node": ">=24.0.0"
   }

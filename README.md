@@ -10,7 +10,7 @@ For teachers and students preparing a talk, lecture or seminar.
 [![you decide: message, activity, verdict](https://img.shields.io/badge/you_decide-message%2C_activity%2C_verdict-b51f33)](#how-it-works)
 [![your agent: any capable one](https://img.shields.io/badge/your_agent-any_capable_one-2f5bea)](#works-with-your-agent)
 [![you keep: your method card](https://img.shields.io/badge/you_keep-your_method_card-0e7c7b)](#one-talk-start-to-finish)
-[![licence: MIT](https://img.shields.io/badge/licence-MIT-59636e)](LICENSE)
+[![licence: Apache-2.0 + CC BY 4.0](https://img.shields.io/badge/licence-Apache--2.0%20%2B%20CC%20BY%204.0-59636e)](NOTICE)
 
 [Start here](#start-here) · [One talk, start to finish](#one-talk-start-to-finish) · [How it works](#how-it-works) · [Activity ideas](#activity-ideas) · [Setup and cost](#setup-and-cost) · [The included example](#the-included-example) · [Works with your agent](#works-with-your-agent)
 
@@ -181,5 +181,9 @@ skill tells it not to claim a build it has not run.
 - [The Singularity example](docs/SINGULARITY-EXAMPLE.md), its [operating guide](docs/RUN-A-SESSION.md) and [game rules](docs/GAME-RULES.md)
 - [Example code and checks](docs/DEVELOPMENT.md), [verification record](docs/VERIFICATION.md) and [security](SECURITY.md)
 
-Original code and teaching material use the [MIT licence](LICENSE); see
-[third-party notices](THIRD_PARTY_NOTICES.md). A software licence does not override academic rules.
+Code, `SKILL.md` and prompt files use [Apache-2.0](LICENSE); texts, teaching material and images use
+[CC BY 4.0](LICENSE-CC-BY-4.0), as the [NOTICE](NOTICE) says. Every commit before the licence
+change, including version 1.0.0, stays under the MIT licence for whoever has it; that notice is kept
+in [LICENSE-MIT-PRIOR](LICENSE-MIT-PRIOR). Version 1.1.0 is the first release under the new terms.
+Third-party assets keep their own terms; see the [third-party notices](THIRD_PARTY_NOTICES.md). A
+licence does not override academic rules; see [academic use](docs/ACADEMIC-USE.md).
