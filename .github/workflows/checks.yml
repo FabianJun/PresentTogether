@@ -6,7 +6,17 @@ permissions:
   contents: read
 jobs:
   classroom-flow:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        experimental: [false]
+        # Windows is a trial run until the CI steps are portable and its own job passes; then remove continue-on-error so it is required. Call Windows tested in the README only after a required run passes.
+        include:
+          - os: windows-latest
+            experimental: true
+    continue-on-error: ${{ matrix.experimental }}
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
