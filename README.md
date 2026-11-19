@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/social-preview.jpg" width="400" alt="present-together: co-design interactive presentations with an AI agent, then build, test and host them. Risograph print in red, teal and blue: a row of raised arms, red human arms in patterned sleeves alternating with bare blue robot arms, each hand pinching one teal thread at a different height, so together they lift it into a curve that rises steeply like compound growth.">
+<img src="docs/assets/social-preview.jpg" width="100%" alt="present-together: co-design interactive presentations with an AI agent, then build, test and host them. Risograph print in red, teal and blue: a row of raised arms, red human arms in patterned sleeves alternating with bare blue robot arms, each hand pinching one teal thread at a different height, so together they lift it into a curve that rises steeply like compound growth.">
 
 **Give better talks: an AI coaches you and builds the interactive parts.**
 
@@ -155,9 +155,13 @@ Participants make individual choices in a four-round game; the projection shows 
 decisions, points and a separate control score, and the debrief connects it all to cooperation and
 safeguards.
 
-| The talk opens with a question | The activity ends with visible results |
-|---|---|
-| ![Opening slide of the included example: "How can we maintain control over increasingly complex AI systems?"](docs/images/presentation.png) | ![A results slide from the included example: two sides' choices over four rounds and a chart of AI capability against human control](docs/images/outcome.png) |
+The talk opens with a question
+
+<img src="docs/images/presentation.png" width="100%" alt="Opening slide of the included example: &quot;How can we maintain control over increasingly complex AI systems?&quot;">
+
+The activity ends with visible results
+
+<img src="docs/images/outcome.png" width="100%" alt="A results slide from the included example: two sides' choices over four rounds and a chart of AI capability against human control">
 
 Borrow its patterns: visible context for each participant, individual choices, explained results,
 separate presenter and audience views, notes that follow the activity, and an offline fallback. Its
