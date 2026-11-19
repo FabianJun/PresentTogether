@@ -145,7 +145,7 @@ flowchart LR
 - **Cost before paying.** For anything paid, you see the exact resources, the cost for the event and the cost if it is left running. For scale: the example's small cloud server came to an estimated [US$0.33 a day](docs/HOSTING.md#what-the-singularity-server-cost).
 - **You might be asked to** sign in through a provider's own page, agree to a specific cost, or try the activity yourself. Never paste passwords or secret keys into the chat.
 - **No terminal work for you.** The agent handles commands, cloud settings and code. If its tools cannot do something, it says so and suggests the simplest way forward.
-- **Your computer.** The included example is built and tested automatically on Linux, a computer system like Windows or Mac, and passes there. Mac: not yet tested. Windows: trial run, not yet confirmed; the checks run there, but a failure does not count yet. On any computer you can start with the coaching in a chat; before it builds anything, your agent checks the tools it has.
+- **Your computer.** The included example is built and tested automatically on Linux, a computer system like Windows or Mac, and passes there. Mac and Windows: trial run, not yet confirmed; the checks run there, but a failure does not count yet. On any computer you can start with the coaching in a chat; before it builds anything, your agent checks the tools it has.
 - **After the event**, it can save the project to your own account and remind you to stop the hosting. [Hosting and costs](docs/HOSTING.md)
 
 ## The included example

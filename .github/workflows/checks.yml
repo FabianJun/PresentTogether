@@ -9,10 +9,14 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest]
+        os: [ubuntu-latest]
         experimental: [false]
-        # Windows is a trial run until the CI steps are portable and its own job passes; then remove continue-on-error so it is required. Call Windows tested in the README only after a required run passes.
+        # Trial runs: a failure shows in its own job but does not fail the workflow.
+        # macOS: required after its own job first passes. Windows: required once the CI steps are portable and its own job passes.
+        # To make one required, move it into the os list above and delete its include entry. Call it tested in the README only after a required run passes.
         include:
+          - os: macos-latest
+            experimental: true
           - os: windows-latest
             experimental: true
     continue-on-error: ${{ matrix.experimental }}
