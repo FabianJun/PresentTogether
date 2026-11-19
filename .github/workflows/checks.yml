@@ -9,14 +9,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest]
+        # Ubuntu and macOS are required. A Windows failure appears in its job without failing the workflow.
+        # After a hosted Windows pass, move it into the os list and remove its include entry.
+        # All legs run the same steps. scripts/ci_steps.py handles platform differences.
+        # The README calls an OS tested only after its own hosted job passes.
+        os: [ubuntu-latest, macos-latest]
         experimental: [false]
-        # Trial runs: a failure shows in its own job but does not fail the workflow.
-        # macOS: required after its own job first passes. Windows: required once the CI steps are portable and its own job passes.
-        # To make one required, move it into the os list above and delete its include entry. Call it tested in the README only after a required run passes.
         include:
-          - os: macos-latest
-            experimental: true
           - os: windows-latest
             experimental: true
     continue-on-error: ${{ matrix.experimental }}
@@ -28,31 +27,16 @@ jobs:
         with:
           node-version: '24'
           cache: npm
+      - uses: astral-sh/setup-uv@v7
+        with:
+          version: '0.11.19'
       - run: npm ci --ignore-scripts
       - run: npm test
       - run: npm run build
       - run: bash -n deploy/bootstrap-vm.sh deploy/backup-vm.sh
+        shell: bash
       - name: Install browser tools
-        run: |
-          python3 -m venv .venv
-          .venv/bin/pip install -r requirements-dev.txt
-          .venv/bin/python -m unittest discover -s tests -p "test_*.py"
-          .venv/bin/python -m playwright install --with-deps chromium
+        run: uv run --no-project --python 3.12 python scripts/ci_steps.py setup
       - name: Export and rehearse
-        run: |
-          node scripts/preview.mjs > /tmp/singularity-preview.log 2>&1 &
-          app_pid=$!
-          trap 'kill "$app_pid" 2>/dev/null || true' EXIT
-          for attempt in {1..30}; do
-            curl --fail --silent http://127.0.0.1:8787/health && break
-            sleep 1
-          done
-          curl --fail http://127.0.0.1:8787/health
-          .venv/bin/python scripts/export_presentation.py
-          .venv/bin/python scripts/export_speaker_pdfs.py
-          .venv/bin/python scripts/qa_browser.py
-          .venv/bin/python scripts/qa_race_cooperation.py
-          .venv/bin/python scripts/qa_apa.py
-          .venv/bin/python scripts/qa_walkthrough.py
-          .venv/bin/python scripts/check_public_package.py
+        run: uv run --no-project --python 3.12 python scripts/ci_steps.py rehearse
       # Do not upload test-room screenshots: host views can contain private links.

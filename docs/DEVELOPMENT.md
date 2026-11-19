@@ -37,7 +37,7 @@ Content changes can affect both the JSON and code-generated visuals. Update spea
 
 ## Browser checks and exports
 
-Python 3.12 is a tested choice. Install the development packages and Chromium:
+Python 3.11 or later is required; 3.12 is a tested choice. Install the development packages and Chromium:
 
 ```sh
 python -m pip install -r requirements-dev.txt
@@ -60,6 +60,10 @@ python scripts/qa_race_cooperation.py
 python scripts/qa_apa.py
 python scripts/qa_walkthrough.py
 ```
+
+On every OS, CI uses `python scripts/ci_steps.py setup` to create `.venv` if needed, install packages, run the unit tests and install Chromium, and `python scripts/ci_steps.py rehearse` to start the preview on `127.0.0.1:8787`, run the six scripts above plus `scripts/check_public_package.py` and stop the preview. Both commands run in CI as `uv run --no-project --python 3.12 python scripts/ci_steps.py ...`.
+
+Before `rehearse`, run `npm ci` and `npm run build` in a Git clone, and stop any preview you started by hand so port 8787 is free. `rehearse` regenerates the committed exports under `presentation/` and `web/assets/`, so restore them with Git if you did not mean to change them. Ubuntu and macOS are required CI legs, and Windows is a trial leg until its hosted job passes.
 
 Export first: the speaker PDF checks expect the current generated files. `QA_BASE` can point to a different **test** deployment. Do not aim these scripts at a live class. They create synthetic rooms and delete their own rooms afterwards. Screenshots and temporary outputs go in ignored `output/`; some contain private test access links, so do not publish that directory.
 

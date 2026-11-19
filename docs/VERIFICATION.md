@@ -9,7 +9,17 @@ Checked on 2026-11-17; see the [decision record](DECISIONS.md). Committed export
 | Check | Result |
 |---|---|
 | `python -m unittest discover -s tests -p "test_*.py"` | Pass: 19 tests covering all PDF helpers, the committed presentation, synthetic PDFs, link targets other than web addresses, backslash paths in metadata and the legacy-import guard. |
-| Full browser export run with the replacement | Unchecked until the next local export or CI run. |
+| Full browser export run with the replacement | Pass on 2026-11-19 locally on Windows; see Portable CI steps below. |
+
+## Portable CI steps
+
+Checked on 2026-11-19.
+
+| Check | Result |
+|---|---|
+| `python -m unittest discover -s tests -p "test_*.py"` | Pass: 28 tests, 19 for the PDF helpers and 9 for the CI entry point. |
+| `python scripts/ci_steps.py setup` and `rehearse` on Windows | Pass locally: all seven rehearsal steps; the preview stopped afterwards. |
+| Hosted CI runs of the new entry point (Linux, macOS, Windows) | Unchecked until the first push. |
 
 ## Institution-agnostic academic use
 
